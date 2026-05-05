@@ -1,0 +1,44 @@
+{
+  "name": "moving-abroad",
+  "version": "1.0.0",
+  "description": "Moving Abroad — The practical and psychological guide to expat life and international relocation",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "pnpm build:client && pnpm build:server",
+    "build:client": "vite build",
+    "build:server": "node scripts/build-server.mjs",
+    "start": "NODE_ENV=production node scripts/start-with-cron.mjs",
+    "seed": "node scripts/bulk-seed.mjs",
+    "visual-qa": "node scripts/visual-qa.mjs",
+    "audit-quality": "node scripts/audit-quality.mjs",
+    "migrate-images": "node scripts/migrate-images-to-bunny.mjs"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "openai": "^4.47.1",
+    "pg": "^8.11.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "serve-static": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "@types/pg": "^8.11.5",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "esbuild": "^0.21.3",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}

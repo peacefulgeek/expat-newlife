@@ -1,0 +1,107 @@
+/* ═══════════════════════════════════════════════════════════
+   MOVING ABROAD — Design Tokens
+   Site 114 | Archetype E — Dashboard
+   Palette: Steel Blue + Slate + Warm White
+   ═══════════════════════════════════════════════════════════ */
+
+:root {
+  /* ─── Site Colors ─── */
+  --bg-primary: #F2F5F8;
+  --bg-secondary: #FFFFFF;
+  --bg-sidebar: #E5EEF5;
+  --bg-card: #FFFFFF;
+  --bg-accent-soft: #D6E8F5;
+  --bg-dark: #18222E;
+
+  --text-primary: #18222E;
+  --text-secondary: #4A5568;
+  --text-muted: #718096;
+  --text-inverse: #FFFFFF;
+  --text-accent: #3A6A8A;
+
+  --accent: #3A6A8A;
+  --accent-hover: #2D5470;
+  --accent-light: #5B8FAD;
+  --accent-soft: #D6E8F5;
+
+  --border-color: #CBD5E0;
+  --border-light: #E2EBF2;
+  --card-shadow: 0 2px 8px rgba(58, 106, 138, 0.12);
+  --card-shadow-hover: 0 8px 24px rgba(58, 106, 138, 0.2);
+
+  /* ─── Typography ─── */
+  --font-family: 'Inter', 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Inter', 'Manrope', system-ui, -apple-system, sans-serif;
+
+  --body-font-size-desktop: 17px;
+  --body-font-size-mobile: 16px;
+  --line-height-body: 1.7;
+  --line-height-heading: 1.25;
+
+  /* ─── Layout ─── */
+  --sidebar-width: 240px;
+  --max-content-width: 740px;
+  --max-site-width: 1280px;
+  --tap-target-min: 44px;
+
+  /* ─── Spacing ─── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ─── Border Radius ─── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+  --radius-2xl: 24px;
+
+  /* ─── Shadows ─── */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 12px rgba(58,106,138,0.12), 0 2px 4px rgba(0,0,0,0.06);
+  --shadow-lg: 0 8px 24px rgba(58,106,138,0.15), 0 4px 8px rgba(0,0,0,0.08);
+  --shadow-xl: 0 16px 48px rgba(58,106,138,0.2), 0 8px 16px rgba(0,0,0,0.1);
+
+  /* ─── Accent RGB for rgba() usage ─── */
+  --accent-rgb: 58, 106, 138;
+
+  /* ─── Transitions ─── */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* ─── Z-index ─── */
+  --z-sidebar: 100;
+  --z-header: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* ─── Progress bar ─── */
+  --progress-height: 3px;
+  --progress-color: var(--accent);
+}
+
+/* ─── Dark mode support ─── */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #0F1923;
+    --bg-secondary: #18222E;
+    --bg-sidebar: #1A2A3A;
+    --bg-card: #1E2D3D;
+    --text-primary: #E8EDF2;
+    --text-secondary: #A0B4C4;
+    --text-muted: #6B8A9E;
+    --border-color: #2D4155;
+    --border-light: #243547;
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+}

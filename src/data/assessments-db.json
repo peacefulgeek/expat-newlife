@@ -1,0 +1,710 @@
+[
+  {
+    "id": 1,
+    "slug": "expat-readiness-quiz",
+    "title": "Are You Ready to Move Abroad?",
+    "subtitle": "The Expat Readiness Assessment",
+    "meta_desc": "Take the Expat Readiness Assessment to discover your strengths, blind spots, and what to focus on before you make the move.",
+    "og_title": "Are You Ready to Move Abroad? Take the Quiz",
+    "og_desc": "Discover your expat readiness score and what to focus on before you make the move.",
+    "category": "getting-started",
+    "estimated_minutes": 5,
+    "question_count": 10,
+    "hero_url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80",
+    "intro": "Moving abroad is one of the most significant decisions you can make. This assessment will help you understand where you're genuinely prepared and where you have gaps to address before you go.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How much research have you done on the visa and residency requirements for your destination country?",
+        "options": [
+          { "value": "a", "text": "I haven't started yet", "score": 0 },
+          { "value": "b", "text": "I've done some general reading", "score": 1 },
+          { "value": "c", "text": "I know my visa category and the basic requirements", "score": 2 },
+          { "value": "d", "text": "I've researched the full process and have a clear plan", "score": 3 }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How would you describe your financial preparation for the move?",
+        "options": [
+          { "value": "a", "text": "I'm figuring it out as I go", "score": 0 },
+          { "value": "b", "text": "I have some savings but no clear budget", "score": 1 },
+          { "value": "c", "text": "I have a budget and 3-6 months of expenses saved", "score": 2 },
+          { "value": "d", "text": "I have a detailed budget, emergency fund, and income plan", "score": 3 }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How do you typically respond to uncertainty and ambiguity?",
+        "options": [
+          { "value": "a", "text": "I find it very stressful and prefer clear plans", "score": 0 },
+          { "value": "b", "text": "I manage but it takes a toll on me", "score": 1 },
+          { "value": "c", "text": "I'm generally comfortable with it", "score": 2 },
+          { "value": "d", "text": "I actually thrive in uncertain situations", "score": 3 }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is your relationship with the local language of your destination?",
+        "options": [
+          { "value": "a", "text": "I don't speak it and haven't started learning", "score": 0 },
+          { "value": "b", "text": "I know a few words and phrases", "score": 1 },
+          { "value": "c", "text": "I have basic conversational ability", "score": 2 },
+          { "value": "d", "text": "I'm intermediate or advanced, or the country speaks my language", "score": 3 }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How have you handled major life transitions in the past?",
+        "options": [
+          { "value": "a", "text": "I've struggled significantly with major changes", "score": 0 },
+          { "value": "b", "text": "I've managed but it's been hard", "score": 1 },
+          { "value": "c", "text": "I've adapted reasonably well", "score": 2 },
+          { "value": "d", "text": "I've generally thrived through major transitions", "score": 3 }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is your plan for healthcare abroad?",
+        "options": [
+          { "value": "a", "text": "I haven't thought about it yet", "score": 0 },
+          { "value": "b", "text": "I plan to figure it out when I arrive", "score": 1 },
+          { "value": "c", "text": "I have travel insurance or am researching international health insurance", "score": 2 },
+          { "value": "d", "text": "I have comprehensive international health insurance already arranged", "score": 3 }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How would you describe your social support system?",
+        "options": [
+          { "value": "a", "text": "I rely heavily on my current social network and worry about losing it", "score": 0 },
+          { "value": "b", "text": "I have some support but I'm concerned about isolation", "score": 1 },
+          { "value": "c", "text": "I have strong relationships that I believe will survive the distance", "score": 2 },
+          { "value": "d", "text": "I'm confident in my ability to build new connections and maintain existing ones", "score": 3 }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "What is your primary motivation for moving abroad?",
+        "options": [
+          { "value": "a", "text": "To escape my current situation", "score": 0 },
+          { "value": "b", "text": "A mix of escape and genuine attraction to the new place", "score": 1 },
+          { "value": "c", "text": "A specific opportunity or goal in the destination country", "score": 2 },
+          { "value": "d", "text": "A clear, positive vision of the life I want to build there", "score": 3 }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "How much do you know about the culture, customs, and daily life of your destination country?",
+        "options": [
+          { "value": "a", "text": "Very little — I'm mostly going on impressions", "score": 0 },
+          { "value": "b", "text": "I've read some general information", "score": 1 },
+          { "value": "c", "text": "I've done significant research and talked to people who live there", "score": 2 },
+          { "value": "d", "text": "I've visited, have local contacts, and have a realistic picture", "score": 3 }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "How do you feel about the administrative work involved in moving abroad — visas, registrations, bank accounts, taxes?",
+        "options": [
+          { "value": "a", "text": "It overwhelms me and I tend to avoid it", "score": 0 },
+          { "value": "b", "text": "I find it stressful but I'll manage", "score": 1 },
+          { "value": "c", "text": "I'm organized and methodical about administrative tasks", "score": 2 },
+          { "value": "d", "text": "I actually enjoy getting systems in order", "score": 3 }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "range": [0, 9],
+        "label": "Early Stage",
+        "emoji": "🌱",
+        "headline": "You're at the beginning of the journey",
+        "summary": "Your readiness score suggests you're in the early stages of considering a move abroad. That's not a problem — it's a starting point. The gap between where you are now and where you need to be is bridgeable with focused preparation.",
+        "recommendations": [
+          "Start with our article on <a href='/articles/moving-abroad-fantasy-vs-reality'>Moving Abroad: Fantasy vs. Reality</a> to get an honest picture of what you're getting into.",
+          "Take the <a href='/articles/choosing-a-country-questions-to-ask'>Choosing a Country</a> framework seriously before committing to a destination.",
+          "Give yourself at least 6-12 months of preparation time before your target move date."
+        ],
+        "oracle_message": "The fact that you're asking the question is the beginning of the answer. You don't need to be ready. You need to be willing to get ready. Those are different things."
+      },
+      {
+        "range": [10, 18],
+        "label": "Building Readiness",
+        "emoji": "🌿",
+        "headline": "You're building your foundation",
+        "summary": "You've done some preparation but there are meaningful gaps. The good news: the gaps are specific and addressable. You're not starting from zero — you're filling in the missing pieces.",
+        "recommendations": [
+          "Focus on the areas where you scored lowest: those are your highest-leverage preparation activities.",
+          "Read our <a href='/articles/first-30-days-administrative-priority-list'>First 30 Days checklist</a> to understand what the administrative reality looks like.",
+          "Start building your financial buffer now — 6 months of expenses minimum before departure."
+        ],
+        "oracle_message": "You're in the middle of the preparation, not at the beginning and not at the end. The discomfort of not being fully ready is information, not a verdict. Use it."
+      },
+      {
+        "range": [19, 24],
+        "label": "Well Prepared",
+        "emoji": "🌳",
+        "headline": "You're genuinely well prepared",
+        "summary": "Your preparation is solid. You've done the research, you have the financial foundation, and you have a realistic picture of what you're getting into. The remaining gaps are manageable.",
+        "recommendations": [
+          "Review our <a href='/articles/moving-abroad-checklist-complete'>Complete Moving Abroad Checklist</a> to make sure nothing has been missed.",
+          "Focus on the psychological preparation — read our article on <a href='/articles/culture-shock-four-stages'>Culture Shock: The Four Stages</a>.",
+          "Build your social strategy before you arrive — community is the most important factor in long-term expat satisfaction."
+        ],
+        "oracle_message": "You've done the work. Now trust the work. The preparation doesn't eliminate the uncertainty — it gives you the foundation to navigate it. That's all preparation is supposed to do."
+      },
+      {
+        "range": [25, 30],
+        "label": "Ready",
+        "emoji": "🚀",
+        "headline": "You're ready. What are you waiting for?",
+        "summary": "Your readiness score is exceptional. You've done the research, the financial preparation, the psychological preparation. You have a realistic picture of what you're getting into and a clear vision of what you're building.",
+        "recommendations": [
+          "Review our <a href='/articles/moving-abroad-checklist-complete'>Complete Moving Abroad Checklist</a> one final time.",
+          "Make sure your social strategy is in place — even the most prepared expats underestimate the importance of community.",
+          "Consider taking our <a href='/assessments/culture-shock-readiness-quiz'>Culture Shock Readiness Quiz</a> to understand your psychological preparation."
+        ],
+        "oracle_message": "You already know you're ready. The question you're actually asking is whether it's safe. It's not safe. It's also worth it. You already know this."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "culture-shock-readiness-quiz",
+    "title": "How Will You Handle Culture Shock?",
+    "subtitle": "The Culture Shock Readiness Quiz",
+    "meta_desc": "Discover how you're likely to experience culture shock and what strategies will help you move through it faster.",
+    "og_title": "Culture Shock Readiness Quiz",
+    "og_desc": "Discover how you're likely to experience culture shock and what strategies will help you move through it.",
+    "category": "culture-identity",
+    "estimated_minutes": 4,
+    "question_count": 8,
+    "hero_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=1200&q=80",
+    "intro": "Culture shock affects everyone who moves abroad, but it affects people differently. This quiz will help you understand your personal culture shock profile and the strategies that will work best for you.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "When you encounter a social situation where you don't know the rules, you typically:",
+        "options": [
+          { "value": "a", "text": "Freeze and feel deeply uncomfortable", "score": 0 },
+          { "value": "b", "text": "Withdraw and observe from the sidelines", "score": 1 },
+          { "value": "c", "text": "Ask questions and try to figure it out", "score": 2 },
+          { "value": "d", "text": "Jump in and learn from mistakes", "score": 3 }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How do you respond when things don't work the way you expect them to?",
+        "options": [
+          { "value": "a", "text": "I get frustrated and it affects my mood significantly", "score": 0 },
+          { "value": "b", "text": "I'm frustrated but I manage to keep perspective", "score": 1 },
+          { "value": "c", "text": "I adapt my expectations relatively quickly", "score": 2 },
+          { "value": "d", "text": "I find it interesting rather than frustrating", "score": 3 }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "When you feel lonely or isolated, your typical response is to:",
+        "options": [
+          { "value": "a", "text": "Withdraw further and wait for it to pass", "score": 0 },
+          { "value": "b", "text": "Reach out to people at home", "score": 1 },
+          { "value": "c", "text": "Make an effort to connect with people around me", "score": 2 },
+          { "value": "d", "text": "Use it as an opportunity for self-reflection and then actively seek connection", "score": 3 }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How do you feel about making mistakes in public — mispronouncing words, misunderstanding social cues, doing the wrong thing?",
+        "options": [
+          { "value": "a", "text": "It's mortifying and I avoid situations where it might happen", "score": 0 },
+          { "value": "b", "text": "It bothers me but I can recover", "score": 1 },
+          { "value": "c", "text": "I'm mildly embarrassed but I move on quickly", "score": 2 },
+          { "value": "d", "text": "I expect to make mistakes and find them useful", "score": 3 }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "When you're in a difficult period emotionally, how do you typically cope?",
+        "options": [
+          { "value": "a", "text": "I struggle significantly and it takes a long time to recover", "score": 0 },
+          { "value": "b", "text": "I have some coping strategies but they're not always reliable", "score": 1 },
+          { "value": "c", "text": "I have established practices that help me manage", "score": 2 },
+          { "value": "d", "text": "I have strong, reliable coping strategies and a support system", "score": 3 }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "How do you feel about the idea that your home culture might not be superior to other cultures?",
+        "options": [
+          { "value": "a", "text": "I find it uncomfortable — I believe my culture does things better", "score": 0 },
+          { "value": "b", "text": "I intellectually accept it but emotionally I still prefer my way", "score": 1 },
+          { "value": "c", "text": "I genuinely believe different cultures have different strengths", "score": 2 },
+          { "value": "d", "text": "I'm genuinely curious about different ways of doing things and try to learn from them", "score": 3 }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How important is routine and predictability to your wellbeing?",
+        "options": [
+          { "value": "a", "text": "Essential — I function poorly without established routines", "score": 0 },
+          { "value": "b", "text": "Important — I prefer routine but can manage without it", "score": 1 },
+          { "value": "c", "text": "Helpful but not critical", "score": 2 },
+          { "value": "d", "text": "I actually find too much routine stifling", "score": 3 }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "When you think about not fully understanding the culture around you for an extended period, you feel:",
+        "options": [
+          { "value": "a", "text": "Anxious and overwhelmed", "score": 0 },
+          { "value": "b", "text": "Concerned but manageable", "score": 1 },
+          { "value": "c", "text": "Mildly uncomfortable but accepting", "score": 2 },
+          { "value": "d", "text": "Curious and interested", "score": 3 }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "range": [0, 7],
+        "label": "High Sensitivity",
+        "emoji": "🌊",
+        "headline": "Culture shock will hit you hard — and that's okay",
+        "summary": "Your profile suggests you'll experience culture shock intensely. This doesn't mean you shouldn't move abroad — it means you need to prepare specifically for the psychological demands of the transition.",
+        "recommendations": [
+          "Read our article on <a href='/articles/culture-shock-four-stages'>Culture Shock: The Four Stages</a> so you know what's coming.",
+          "Build a strong support system before you leave — a therapist, a coach, or a community you can access remotely.",
+          "Plan for a longer adjustment period. Give yourself 18-24 months before evaluating whether the move is working."
+        ],
+        "oracle_message": "Sensitivity is not weakness. It's information. The people who feel things deeply often have the richest experiences — they just need more support to navigate them. Build the support before you need it."
+      },
+      {
+        "range": [8, 15],
+        "label": "Moderate Sensitivity",
+        "emoji": "🌤",
+        "headline": "You'll have your hard moments — and you'll move through them",
+        "summary": "You'll experience culture shock — everyone does — but you have enough resilience and adaptability to navigate it. The frustration stage will be real but manageable.",
+        "recommendations": [
+          "Develop your coping strategies before you leave, not after you arrive.",
+          "Build community deliberately and early — don't wait for it to happen organically.",
+          "Read our article on <a href='/articles/building-social-life-from-zero'>Building a Social Life From Zero</a> for a practical framework."
+        ],
+        "oracle_message": "You're not immune to the hard parts. You're equipped for them. There's a difference. The equipment doesn't make the journey easy. It makes it navigable."
+      },
+      {
+        "range": [16, 24],
+        "label": "High Resilience",
+        "emoji": "🌟",
+        "headline": "You're built for this kind of challenge",
+        "summary": "Your profile shows high resilience and adaptability. You'll move through the culture shock cycle faster than most and find genuine enjoyment in the process of cultural learning.",
+        "recommendations": [
+          "Your biggest risk is underestimating the adjustment for people around you — partners, children, friends.",
+          "Use your resilience to help others in your expat community who are struggling.",
+          "Read our article on <a href='/articles/expat-bubble-why-it-exists-when-to-break-out'>The Expat Bubble</a> — resilient people sometimes use their adaptability to avoid the deeper work of integration."
+        ],
+        "oracle_message": "Your resilience is a gift. Use it generously — for yourself and for the people around you who are finding it harder. The strongest people in any community are the ones who make it easier for others to stay."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "expat-financial-readiness-quiz",
+    "title": "Is Your Money Ready for the Move?",
+    "subtitle": "The Expat Financial Readiness Quiz",
+    "meta_desc": "Assess your financial preparation for moving abroad — savings, income, banking, taxes, and the gaps you need to close before you go.",
+    "og_title": "Expat Financial Readiness Quiz",
+    "og_desc": "Assess your financial preparation for moving abroad and find the gaps you need to close.",
+    "category": "money-banking",
+    "estimated_minutes": 4,
+    "question_count": 8,
+    "hero_url": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80",
+    "intro": "Financial preparation is one of the most critical — and most commonly underestimated — aspects of moving abroad. This quiz will help you identify your financial readiness and the specific gaps to address.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How many months of living expenses do you have saved?",
+        "options": [
+          { "value": "a", "text": "Less than 1 month", "score": 0 },
+          { "value": "b", "text": "1-3 months", "score": 1 },
+          { "value": "c", "text": "3-6 months", "score": 2 },
+          { "value": "d", "text": "6+ months", "score": 3 }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is your income situation for abroad?",
+        "options": [
+          { "value": "a", "text": "I don't have a clear income plan yet", "score": 0 },
+          { "value": "b", "text": "I have some ideas but nothing confirmed", "score": 1 },
+          { "value": "c", "text": "I have a confirmed income source (job, freelance clients, pension)", "score": 2 },
+          { "value": "d", "text": "I have multiple confirmed income sources and a financial buffer", "score": 3 }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Have you researched the tax implications of moving abroad for your specific situation?",
+        "options": [
+          { "value": "a", "text": "No, I haven't thought about it", "score": 0 },
+          { "value": "b", "text": "I've done some general reading", "score": 1 },
+          { "value": "c", "text": "I understand the basics and have identified what I need to know", "score": 2 },
+          { "value": "d", "text": "I've consulted an expat tax professional and have a clear plan", "score": 3 }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is your plan for banking and money transfers abroad?",
+        "options": [
+          { "value": "a", "text": "I'll use my home country bank card", "score": 0 },
+          { "value": "b", "text": "I'm looking into options", "score": 1 },
+          { "value": "c", "text": "I have a multi-currency account (Wise/Revolut) set up", "score": 2 },
+          { "value": "d", "text": "I have a multi-currency account and a plan for opening a local account", "score": 3 }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Have you budgeted for the one-time costs of the move itself?",
+        "options": [
+          { "value": "a", "text": "No, I haven't thought about this separately", "score": 0 },
+          { "value": "b", "text": "I have a rough estimate", "score": 1 },
+          { "value": "c", "text": "I have a detailed estimate of moving costs", "score": 2 },
+          { "value": "d", "text": "I have a detailed estimate and the funds set aside", "score": 3 }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What is your plan for health insurance abroad?",
+        "options": [
+          { "value": "a", "text": "I haven't arranged anything", "score": 0 },
+          { "value": "b", "text": "I'm planning to use travel insurance", "score": 1 },
+          { "value": "c", "text": "I'm researching international health insurance options", "score": 2 },
+          { "value": "d", "text": "I have comprehensive international health insurance arranged", "score": 3 }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Have you researched the cost of living in your specific destination city?",
+        "options": [
+          { "value": "a", "text": "No, I'm going on general impressions", "score": 0 },
+          { "value": "b", "text": "I've looked at some general cost of living comparisons", "score": 1 },
+          { "value": "c", "text": "I've researched specific costs for housing, food, and transportation", "score": 2 },
+          { "value": "d", "text": "I have a detailed monthly budget based on current local prices", "score": 3 }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Do you have a financial plan for emergencies — medical, legal, or having to return home unexpectedly?",
+        "options": [
+          { "value": "a", "text": "No emergency fund", "score": 0 },
+          { "value": "b", "text": "I have some savings but not specifically for emergencies", "score": 1 },
+          { "value": "c", "text": "I have an emergency fund of 1-2 months expenses", "score": 2 },
+          { "value": "d", "text": "I have a dedicated emergency fund of 3+ months and emergency travel funds", "score": 3 }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "range": [0, 7],
+        "label": "Financial Gaps",
+        "emoji": "⚠️",
+        "headline": "Your financial preparation needs significant work",
+        "summary": "Moving abroad without adequate financial preparation is one of the most common reasons expat moves fail. The gaps in your current preparation are significant and need to be addressed before you go.",
+        "recommendations": [
+          "Start with our article on <a href='/articles/banking-abroad-what-you-need-before-you-arrive'>Banking Abroad: What You Need Before You Arrive</a>.",
+          "Read our guide on <a href='/articles/cost-of-living-abroad-honest-numbers'>Cost of Living Abroad: The Honest Numbers</a> to build a realistic budget.",
+          "Delay your move until you have at least 6 months of expenses saved and a confirmed income source."
+        ],
+        "oracle_message": "Money is not the most important thing about moving abroad. But running out of it will end the adventure faster than anything else. Get this foundation right before you go."
+      },
+      {
+        "range": [8, 15],
+        "label": "Building Financial Foundation",
+        "emoji": "🏗️",
+        "headline": "Your financial foundation is forming — close the gaps",
+        "summary": "You've done some financial preparation but there are specific gaps that need attention. The good news is that the gaps are identifiable and addressable.",
+        "recommendations": [
+          "Focus on the specific areas where you scored lowest.",
+          "If you're American, read our article on <a href='/articles/expat-tax-situation-americans-abroad'>The Expat Tax Situation</a> — this is non-negotiable.",
+          "Set up a Wise or Revolut account now, before you need it."
+        ],
+        "oracle_message": "You're building the right things. The gaps you have are real but manageable. Close them systematically. Don't let the perfect be the enemy of the good — but don't ignore the gaps either."
+      },
+      {
+        "range": [16, 24],
+        "label": "Financially Ready",
+        "emoji": "✅",
+        "headline": "Your financial preparation is solid",
+        "summary": "You've done the financial work. You have a realistic budget, a clear income plan, and the right tools in place. The financial foundation is there.",
+        "recommendations": [
+          "Review our <a href='/articles/moving-abroad-checklist-complete'>Complete Moving Abroad Checklist</a> to make sure nothing has been missed.",
+          "Consider whether you need to consult an expat tax professional for your specific situation.",
+          "Build a slightly larger emergency fund than you think you need — the first year always has unexpected costs."
+        ],
+        "oracle_message": "You've done the financial preparation. Now do the psychological preparation — that's where most people underinvest. Read our article on <a href='/articles/culture-shock-four-stages'>Culture Shock</a> and take it seriously."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "expat-identity-quiz",
+    "title": "What Kind of Expat Will You Be?",
+    "subtitle": "The Expat Identity Profile Quiz",
+    "meta_desc": "Discover your expat identity profile — the kind of expat you're likely to become and what that means for your integration, community, and long-term satisfaction.",
+    "og_title": "What Kind of Expat Will You Be? Take the Quiz",
+    "og_desc": "Discover your expat identity profile and what it means for your integration and long-term satisfaction.",
+    "category": "culture-identity",
+    "estimated_minutes": 5,
+    "question_count": 8,
+    "hero_url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80",
+    "intro": "There are many ways to be an expat. Some people integrate deeply into their adopted culture. Others maintain strong ties to their home culture. Most find themselves somewhere in between. This quiz will help you understand your natural tendencies and what they mean for your expat experience.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "When you imagine your ideal social life abroad, it looks like:",
+        "options": [
+          { "value": "a", "text": "Primarily socializing with other expats from my home country", "score": 1 },
+          { "value": "b", "text": "A mix of expats from various countries", "score": 2 },
+          { "value": "c", "text": "A mix of expats and local people", "score": 3 },
+          { "value": "d", "text": "Primarily local people with a few expat connections", "score": 4 }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How important is it to you to learn the local language?",
+        "options": [
+          { "value": "a", "text": "Not very — I can get by in English", "score": 1 },
+          { "value": "b", "text": "Somewhat — I'd like to learn basics", "score": 2 },
+          { "value": "c", "text": "Important — I plan to reach conversational level", "score": 3 },
+          { "value": "d", "text": "Essential — I want to become genuinely fluent", "score": 4 }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How do you feel about adapting your behavior to fit local cultural norms?",
+        "options": [
+          { "value": "a", "text": "I'd prefer to be myself and let others adapt", "score": 1 },
+          { "value": "b", "text": "I'll adapt for practical purposes but maintain my own identity", "score": 2 },
+          { "value": "c", "text": "I'm genuinely interested in understanding and adopting local norms", "score": 3 },
+          { "value": "d", "text": "I want to immerse myself as deeply as possible in the local culture", "score": 4 }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How long do you plan to stay abroad?",
+        "options": [
+          { "value": "a", "text": "1-2 years — I see it as a temporary experience", "score": 1 },
+          { "value": "b", "text": "3-5 years — a significant chapter but not permanent", "score": 2 },
+          { "value": "c", "text": "Long-term — I'm open to staying indefinitely", "score": 3 },
+          { "value": "d", "text": "Permanently — I'm building a life there", "score": 4 }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How important is it to you to maintain strong connections to your home country?",
+        "options": [
+          { "value": "a", "text": "Essential — I see myself as primarily a citizen of my home country", "score": 1 },
+          { "value": "b", "text": "Important — I want to maintain my roots while building new ones", "score": 2 },
+          { "value": "c", "text": "Somewhat — I'll maintain family connections but I'm open to change", "score": 3 },
+          { "value": "d", "text": "Less important — I'm genuinely open to becoming part of a new culture", "score": 4 }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "When you think about the local food, customs, and way of life, you feel:",
+        "options": [
+          { "value": "a", "text": "Curious but I'll probably stick to familiar things", "score": 1 },
+          { "value": "b", "text": "Interested in exploring but with my home culture as a baseline", "score": 2 },
+          { "value": "c", "text": "Genuinely excited to try new things and adopt new habits", "score": 3 },
+          { "value": "d", "text": "Eager to go as local as possible", "score": 4 }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How do you feel about the idea of your identity changing as a result of living abroad?",
+        "options": [
+          { "value": "a", "text": "Uncomfortable — I want to stay who I am", "score": 1 },
+          { "value": "b", "text": "Neutral — some change is fine but I want to stay recognizably myself", "score": 2 },
+          { "value": "c", "text": "Open — I'm interested in who I might become", "score": 3 },
+          { "value": "d", "text": "Excited — transformation is part of why I'm going", "score": 4 }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "What does success abroad look like to you?",
+        "options": [
+          { "value": "a", "text": "Having a comfortable life that's similar to home but in a new place", "score": 1 },
+          { "value": "b", "text": "Building a good life while maintaining my home culture identity", "score": 2 },
+          { "value": "c", "text": "Becoming genuinely bicultural — comfortable in both worlds", "score": 3 },
+          { "value": "d", "text": "Becoming genuinely part of the local culture", "score": 4 }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "range": [8, 14],
+        "label": "The Expatriate",
+        "emoji": "🏠",
+        "headline": "You're an Expatriate — abroad but anchored at home",
+        "summary": "You're moving abroad while maintaining a strong primary identity rooted in your home culture. You'll likely gravitate toward expat communities, maintain home country habits, and see your time abroad as a chapter rather than a transformation. This is a completely valid way to live abroad — just be honest with yourself about what you're choosing.",
+        "recommendations": [
+          "Be aware of the expat bubble risk — read our article on <a href='/articles/expat-bubble-why-it-exists-when-to-break-out'>The Expat Bubble</a>.",
+          "Even if deep integration isn't your goal, learning basic local language will significantly improve your daily life.",
+          "Make sure your partner (if applicable) shares this orientation — mismatched integration goals are a common source of relationship strain."
+        ],
+        "oracle_message": "There is no wrong way to be an expat. The question is whether your choices are conscious or default. If you're choosing the expat bubble, choose it deliberately. If you're defaulting to it out of fear, that's worth examining."
+      },
+      {
+        "range": [15, 22],
+        "label": "The Bridge Builder",
+        "emoji": "🌉",
+        "headline": "You're a Bridge Builder — comfortable in both worlds",
+        "summary": "You're seeking genuine integration while maintaining your roots. You'll build meaningful local connections, learn the language, and develop a bicultural identity that belongs to neither world fully but draws richly from both. This is the most sustainable and ultimately most rewarding expat orientation.",
+        "recommendations": [
+          "Your biggest challenge will be patience — integration takes longer than you expect.",
+          "Read our article on <a href='/articles/identity-disruption-of-relocation'>The Identity Disruption of Relocation</a> to understand what the transformation process actually looks like.",
+          "Invest in language learning early — it's the key to everything else."
+        ],
+        "oracle_message": "Living between worlds is a gift and a challenge. You'll never fully belong anywhere — and you'll belong everywhere in a way that most people never experience. That's worth something."
+      },
+      {
+        "range": [23, 32],
+        "label": "The Integrator",
+        "emoji": "🌍",
+        "headline": "You're an Integrator — going deep",
+        "summary": "You're seeking genuine immersion in your adopted culture. You want to become part of the place, not just live in it. This is the most ambitious expat orientation and the most rewarding when it works.",
+        "recommendations": [
+          "Be patient with the process — genuine integration takes 3-5 years minimum.",
+          "Be aware that deep integration can create distance from your home culture and the people in it.",
+          "Read our article on <a href='/articles/who-are-you-when-nobody-knows-who-you-were'>Who Are You When Nobody Knows Who You Were?</a> — the identity work is central to your journey."
+        ],
+        "oracle_message": "You're not just moving to a new country. You're becoming a new version of yourself. That's the most interesting project there is. Give it the time and attention it deserves."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "trailing-spouse-support-quiz",
+    "title": "Are You the Trailing Spouse? A Readiness Check",
+    "subtitle": "The Trailing Spouse Readiness Assessment",
+    "meta_desc": "If you're moving abroad for your partner's career or dream, this assessment will help you understand your specific challenges and what you need to build a life that works for you.",
+    "og_title": "Trailing Spouse Readiness Assessment",
+    "og_desc": "Moving abroad for your partner? This assessment helps you understand your specific challenges and needs.",
+    "category": "relationships",
+    "estimated_minutes": 4,
+    "question_count": 7,
+    "hero_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+    "intro": "Moving abroad as the partner who follows — the trailing spouse — is a specific experience with specific challenges. This assessment will help you understand your situation and what you need to build a life that works for you, not just for your partner.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How enthusiastic are you about this move?",
+        "options": [
+          { "value": "a", "text": "Honestly, I'm doing this for my partner — I wouldn't have chosen it myself", "score": 0 },
+          { "value": "b", "text": "I have mixed feelings — some excitement, some reluctance", "score": 1 },
+          { "value": "c", "text": "I'm genuinely looking forward to it, even though it was primarily my partner's idea", "score": 2 },
+          { "value": "d", "text": "I'm as enthusiastic as my partner, if not more", "score": 3 }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What are you giving up to make this move?",
+        "options": [
+          { "value": "a", "text": "A career, a social network, and a strong sense of identity in my current role", "score": 0 },
+          { "value": "b", "text": "A job and some social connections, but I was ready for a change", "score": 1 },
+          { "value": "c", "text": "Some social connections, but my career can travel with me", "score": 2 },
+          { "value": "d", "text": "Not much — I was ready to leave anyway", "score": 3 }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Have you and your partner had an honest conversation about what you need to build your own life abroad?",
+        "options": [
+          { "value": "a", "text": "No, we haven't really talked about my needs specifically", "score": 0 },
+          { "value": "b", "text": "We've talked about it briefly but not in depth", "score": 1 },
+          { "value": "c", "text": "We've had a good conversation and my partner understands what I need", "score": 2 },
+          { "value": "d", "text": "We have a clear shared plan for how I'll build my own life there", "score": 3 }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Do you have a plan for your own professional or personal development abroad?",
+        "options": [
+          { "value": "a", "text": "No — I'm not sure what I'll do", "score": 0 },
+          { "value": "b", "text": "I have some vague ideas but nothing concrete", "score": 1 },
+          { "value": "c", "text": "I have a specific plan for work or a project I want to pursue", "score": 2 },
+          { "value": "d", "text": "I have a clear plan and I'm genuinely excited about it", "score": 3 }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How do you feel about the possibility of resentment building over time?",
+        "options": [
+          { "value": "a", "text": "I'm already feeling some resentment and I'm worried about it growing", "score": 0 },
+          { "value": "b", "text": "I'm aware of the risk and I'm not sure how to manage it", "score": 1 },
+          { "value": "c", "text": "I'm aware of the risk and I have some strategies for managing it", "score": 2 },
+          { "value": "d", "text": "I don't feel resentment — I'm genuinely choosing this", "score": 3 }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "What support systems do you have in place for the transition?",
+        "options": [
+          { "value": "a", "text": "Primarily my partner — I don't have other support systems in place", "score": 0 },
+          { "value": "b", "text": "My partner and some remote connections at home", "score": 1 },
+          { "value": "c", "text": "My partner, remote connections, and a plan for building local connections", "score": 2 },
+          { "value": "d", "text": "A robust support system including my partner, remote connections, and local contacts already identified", "score": 3 }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How do you feel about your identity outside of your relationship?",
+        "options": [
+          { "value": "a", "text": "I'm worried about losing my sense of self — my identity is strongly tied to my current role and context", "score": 0 },
+          { "value": "b", "text": "I have some concerns but I have a sense of who I am beyond my current context", "score": 1 },
+          { "value": "c", "text": "I have a strong sense of identity that I'm confident will survive the transition", "score": 2 },
+          { "value": "d", "text": "I see this as an opportunity to build a new identity that's more authentically mine", "score": 3 }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "range": [0, 6],
+        "label": "High Risk",
+        "emoji": "🚨",
+        "headline": "The trailing spouse experience will be very hard for you without significant support",
+        "summary": "Your profile suggests significant risk of the trailing spouse syndrome — resentment, identity loss, and relationship strain. This doesn't mean you shouldn't go. It means you need to address these issues directly and honestly before and during the move.",
+        "recommendations": [
+          "Have the honest conversation with your partner about what you're giving up and what you need. Not as an accusation — as information.",
+          "Read our article on <a href='/articles/expat-relationships-partner-who-didnt-want-to-move'>When Your Partner Didn't Really Want to Move</a>.",
+          "Consider couples therapy or coaching before the move — not because your relationship is in trouble, but because this transition is genuinely hard and support helps."
+        ],
+        "oracle_message": "The resentment you're feeling is real and it's valid. It needs to be spoken, not swallowed. The relationship can survive this transition — but only if both people are honest about what it's costing."
+      },
+      {
+        "range": [7, 13],
+        "label": "Manageable with Work",
+        "emoji": "🌿",
+        "headline": "You can make this work — with deliberate effort",
+        "summary": "You have some of the foundations in place but there are real risks that need attention. The trailing spouse experience is manageable with the right preparation and ongoing communication.",
+        "recommendations": [
+          "Develop your own professional or personal project for abroad — something that's yours, not just support for your partner's life.",
+          "Build your support system before you arrive, not after.",
+          "Read our article on <a href='/articles/building-social-life-from-zero'>Building a Social Life From Zero</a> — your social life abroad needs to be yours, not just an extension of your partner's."
+        ],
+        "oracle_message": "You're not just following someone else's dream. You're choosing to build your own life in a new place. The distinction matters. Make it real by building something that's genuinely yours."
+      },
+      {
+        "range": [14, 21],
+        "label": "Well Positioned",
+        "emoji": "🌟",
+        "headline": "You're well positioned for the trailing spouse experience",
+        "summary": "You've done the internal work. You have a clear sense of your own needs, a plan for your own development, and honest communication with your partner. The trailing spouse experience will still have challenges — but you have the foundation to navigate them.",
+        "recommendations": [
+          "Keep the communication with your partner ongoing — not just the initial conversation but regular check-ins throughout the transition.",
+          "Build your own community and professional identity early — don't wait until you're settled.",
+          "Read our article on <a href='/articles/identity-disruption-of-relocation'>The Identity Disruption of Relocation</a> — even well-prepared people experience this."
+        ],
+        "oracle_message": "You've done the work. Now trust it. The transition will still be hard in places. That's not a sign that you didn't prepare well enough. It's just the nature of the transition."
+      }
+    ]
+  }
+]

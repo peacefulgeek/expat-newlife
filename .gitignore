@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── SECTION 9B: ZERO IMAGES IN REPO — BUILD-BLOCKING ───
+# No image files may ever be committed to this repository.
+# All images live on Bunny CDN exclusively.
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.avif
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.heic
+*.heif
+*.svg
+*.ico
+public/images/
+src/images/
+assets/images/
+uploads/
+
+# Fonts (must be on Bunny CDN)
+*.woff
+*.woff2
+*.ttf
+*.otf
+*.eot
+
+# Temp
+*.tmp
+*.temp
+.cache/
