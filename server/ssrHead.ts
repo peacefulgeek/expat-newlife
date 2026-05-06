@@ -32,8 +32,8 @@ interface AssessmentHeadOptions {
   hero_url?: string;
 }
 
-const SITE_NAME = 'Moving Abroad';
-const SITE_URL = process.env.SITE_URL || 'https://movingabroad.com';
+const SITE_NAME = 'ExpatNewLife';
+const SITE_URL = process.env.SITE_URL || 'https://expatnewlife.com';
 const DEFAULT_OG = 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80';
 
 export function buildHomeHead(): string {
@@ -72,10 +72,15 @@ export function buildHomeHead(): string {
     <meta property="og:description" content="${desc}" />
     <meta property="og:url" content="${canonical}" />
     <meta property="og:image" content="${DEFAULT_OG}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@expatnewlife" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${desc}" />
     <meta name="twitter:image" content="${DEFAULT_OG}" />
+    <meta name="pinterest:description" content="${desc}" />
+    <meta name="pinterest:media" content="${DEFAULT_OG}" />
     <script type="application/ld+json">${jsonLd}</script>
   `.trim();
 }
@@ -163,13 +168,19 @@ export function buildArticleHead(article: ArticleHeadOptions): string {
     <meta property="og:description" content="${desc}" />
     <meta property="og:url" content="${canonical}" />
     <meta property="og:image" content="${image}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     ${publishedAt ? `<meta property="article:published_time" content="${publishedAt}" />` : ''}
     ${modifiedAt ? `<meta property="article:modified_time" content="${modifiedAt}" />` : ''}
     <meta property="article:author" content="${author}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@expatnewlife" />
+    <meta name="twitter:creator" content="@theoraclelover" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${desc}" />
     <meta name="twitter:image" content="${image}" />
+    <meta name="pinterest:description" content="${desc}" />
+    <meta name="pinterest:media" content="${image}" />
     ${jsonLdTags}
   `.trim();
 }
@@ -205,10 +216,15 @@ export function buildAssessmentHead(assessment: AssessmentHeadOptions): string {
     <meta property="og:description" content="${desc}" />
     <meta property="og:url" content="${canonical}" />
     <meta property="og:image" content="${image}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@expatnewlife" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${desc}" />
     <meta name="twitter:image" content="${image}" />
+    <meta name="pinterest:description" content="${desc}" />
+    <meta name="pinterest:media" content="${image}" />
     <script type="application/ld+json">${jsonLd}</script>
   `.trim();
 }

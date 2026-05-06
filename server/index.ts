@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
 const isDev = process.env.NODE_ENV !== 'production';
-const PORT = parseInt(process.env.PORT || '3000', 10);
+const PORT = parseInt(process.env.PORT || '8080', 10);
 
 async function createApp() {
   const app = express();
@@ -41,6 +41,7 @@ async function createApp() {
 
   app.use('/health', healthRouter);
   app.use('/sitemap.xml', sitemapRouter);
+  app.use('/sitemap-images.xml', (req, res, next) => { req.url = '/images'; sitemapRouter(req, res, next); });
   app.use('/robots.txt', robotsRouter);
   app.use(llmsRouter);
   app.use('/api/articles', articlesRouter);

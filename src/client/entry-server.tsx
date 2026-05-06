@@ -14,7 +14,7 @@ export async function render(url: string) {
   const head = `
     <title>Moving Abroad — Your Expat Life Guide</title>
     <meta name="description" content="The practical and psychological guide to moving abroad — the logistics, the culture shock, the identity disruption, and building a real life somewhere new." />
-    <link rel="canonical" href="https://movingabroad.com${url}" />
+    <link rel="canonical" href="https://expatnewlife.com${url}" />
     <meta property="og:site_name" content="Moving Abroad" />
     <meta property="og:type" content="website" />
   `;

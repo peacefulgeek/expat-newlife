@@ -10,113 +10,276 @@
     "category": "getting-started",
     "estimated_minutes": 5,
     "question_count": 10,
-    "hero_url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80",
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-readiness-quiz.webp",
     "intro": "Moving abroad is one of the most significant decisions you can make. This assessment will help you understand where you're genuinely prepared and where you have gaps to address before you go.",
     "questions": [
       {
         "id": "q1",
         "text": "How much research have you done on the visa and residency requirements for your destination country?",
         "options": [
-          { "value": "a", "text": "I haven't started yet", "score": 0 },
-          { "value": "b", "text": "I've done some general reading", "score": 1 },
-          { "value": "c", "text": "I know my visa category and the basic requirements", "score": 2 },
-          { "value": "d", "text": "I've researched the full process and have a clear plan", "score": 3 }
+          {
+            "value": "a",
+            "text": "I haven't started yet",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I've done some general reading",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I know my visa category and the basic requirements",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I've researched the full process and have a clear plan",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q2",
         "text": "How would you describe your financial preparation for the move?",
         "options": [
-          { "value": "a", "text": "I'm figuring it out as I go", "score": 0 },
-          { "value": "b", "text": "I have some savings but no clear budget", "score": 1 },
-          { "value": "c", "text": "I have a budget and 3-6 months of expenses saved", "score": 2 },
-          { "value": "d", "text": "I have a detailed budget, emergency fund, and income plan", "score": 3 }
+          {
+            "value": "a",
+            "text": "I'm figuring it out as I go",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some savings but no clear budget",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have a budget and 3-6 months of expenses saved",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have a detailed budget, emergency fund, and income plan",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q3",
         "text": "How do you typically respond to uncertainty and ambiguity?",
         "options": [
-          { "value": "a", "text": "I find it very stressful and prefer clear plans", "score": 0 },
-          { "value": "b", "text": "I manage but it takes a toll on me", "score": 1 },
-          { "value": "c", "text": "I'm generally comfortable with it", "score": 2 },
-          { "value": "d", "text": "I actually thrive in uncertain situations", "score": 3 }
+          {
+            "value": "a",
+            "text": "I find it very stressful and prefer clear plans",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I manage but it takes a toll on me",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm generally comfortable with it",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I actually thrive in uncertain situations",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q4",
         "text": "What is your relationship with the local language of your destination?",
         "options": [
-          { "value": "a", "text": "I don't speak it and haven't started learning", "score": 0 },
-          { "value": "b", "text": "I know a few words and phrases", "score": 1 },
-          { "value": "c", "text": "I have basic conversational ability", "score": 2 },
-          { "value": "d", "text": "I'm intermediate or advanced, or the country speaks my language", "score": 3 }
+          {
+            "value": "a",
+            "text": "I don't speak it and haven't started learning",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I know a few words and phrases",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have basic conversational ability",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm intermediate or advanced, or the country speaks my language",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q5",
         "text": "How have you handled major life transitions in the past?",
         "options": [
-          { "value": "a", "text": "I've struggled significantly with major changes", "score": 0 },
-          { "value": "b", "text": "I've managed but it's been hard", "score": 1 },
-          { "value": "c", "text": "I've adapted reasonably well", "score": 2 },
-          { "value": "d", "text": "I've generally thrived through major transitions", "score": 3 }
+          {
+            "value": "a",
+            "text": "I've struggled significantly with major changes",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I've managed but it's been hard",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I've adapted reasonably well",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I've generally thrived through major transitions",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q6",
         "text": "What is your plan for healthcare abroad?",
         "options": [
-          { "value": "a", "text": "I haven't thought about it yet", "score": 0 },
-          { "value": "b", "text": "I plan to figure it out when I arrive", "score": 1 },
-          { "value": "c", "text": "I have travel insurance or am researching international health insurance", "score": 2 },
-          { "value": "d", "text": "I have comprehensive international health insurance already arranged", "score": 3 }
+          {
+            "value": "a",
+            "text": "I haven't thought about it yet",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I plan to figure it out when I arrive",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have travel insurance or am researching international health insurance",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have comprehensive international health insurance already arranged",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q7",
         "text": "How would you describe your social support system?",
         "options": [
-          { "value": "a", "text": "I rely heavily on my current social network and worry about losing it", "score": 0 },
-          { "value": "b", "text": "I have some support but I'm concerned about isolation", "score": 1 },
-          { "value": "c", "text": "I have strong relationships that I believe will survive the distance", "score": 2 },
-          { "value": "d", "text": "I'm confident in my ability to build new connections and maintain existing ones", "score": 3 }
+          {
+            "value": "a",
+            "text": "I rely heavily on my current social network and worry about losing it",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some support but I'm concerned about isolation",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have strong relationships that I believe will survive the distance",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm confident in my ability to build new connections and maintain existing ones",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q8",
         "text": "What is your primary motivation for moving abroad?",
         "options": [
-          { "value": "a", "text": "To escape my current situation", "score": 0 },
-          { "value": "b", "text": "A mix of escape and genuine attraction to the new place", "score": 1 },
-          { "value": "c", "text": "A specific opportunity or goal in the destination country", "score": 2 },
-          { "value": "d", "text": "A clear, positive vision of the life I want to build there", "score": 3 }
+          {
+            "value": "a",
+            "text": "To escape my current situation",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "A mix of escape and genuine attraction to the new place",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "A specific opportunity or goal in the destination country",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "A clear, positive vision of the life I want to build there",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q9",
         "text": "How much do you know about the culture, customs, and daily life of your destination country?",
         "options": [
-          { "value": "a", "text": "Very little — I'm mostly going on impressions", "score": 0 },
-          { "value": "b", "text": "I've read some general information", "score": 1 },
-          { "value": "c", "text": "I've done significant research and talked to people who live there", "score": 2 },
-          { "value": "d", "text": "I've visited, have local contacts, and have a realistic picture", "score": 3 }
+          {
+            "value": "a",
+            "text": "Very little — I'm mostly going on impressions",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I've read some general information",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I've done significant research and talked to people who live there",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I've visited, have local contacts, and have a realistic picture",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q10",
         "text": "How do you feel about the administrative work involved in moving abroad — visas, registrations, bank accounts, taxes?",
         "options": [
-          { "value": "a", "text": "It overwhelms me and I tend to avoid it", "score": 0 },
-          { "value": "b", "text": "I find it stressful but I'll manage", "score": 1 },
-          { "value": "c", "text": "I'm organized and methodical about administrative tasks", "score": 2 },
-          { "value": "d", "text": "I actually enjoy getting systems in order", "score": 3 }
+          {
+            "value": "a",
+            "text": "It overwhelms me and I tend to avoid it",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I find it stressful but I'll manage",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm organized and methodical about administrative tasks",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I actually enjoy getting systems in order",
+            "score": 3
+          }
         ]
       }
     ],
     "results": [
       {
-        "range": [0, 9],
+        "range": [
+          0,
+          9
+        ],
         "label": "Early Stage",
         "emoji": "🌱",
         "headline": "You're at the beginning of the journey",
@@ -129,7 +292,10 @@
         "oracle_message": "The fact that you're asking the question is the beginning of the answer. You don't need to be ready. You need to be willing to get ready. Those are different things."
       },
       {
-        "range": [10, 18],
+        "range": [
+          10,
+          18
+        ],
         "label": "Building Readiness",
         "emoji": "🌿",
         "headline": "You're building your foundation",
@@ -142,7 +308,10 @@
         "oracle_message": "You're in the middle of the preparation, not at the beginning and not at the end. The discomfort of not being fully ready is information, not a verdict. Use it."
       },
       {
-        "range": [19, 24],
+        "range": [
+          19,
+          24
+        ],
         "label": "Well Prepared",
         "emoji": "🌳",
         "headline": "You're genuinely well prepared",
@@ -155,7 +324,10 @@
         "oracle_message": "You've done the work. Now trust the work. The preparation doesn't eliminate the uncertainty — it gives you the foundation to navigate it. That's all preparation is supposed to do."
       },
       {
-        "range": [25, 30],
+        "range": [
+          25,
+          30
+        ],
         "label": "Ready",
         "emoji": "🚀",
         "headline": "You're ready. What are you waiting for?",
@@ -180,93 +352,224 @@
     "category": "culture-identity",
     "estimated_minutes": 4,
     "question_count": 8,
-    "hero_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=1200&q=80",
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/culture-shock-readiness-quiz.webp",
     "intro": "Culture shock affects everyone who moves abroad, but it affects people differently. This quiz will help you understand your personal culture shock profile and the strategies that will work best for you.",
     "questions": [
       {
         "id": "q1",
         "text": "When you encounter a social situation where you don't know the rules, you typically:",
         "options": [
-          { "value": "a", "text": "Freeze and feel deeply uncomfortable", "score": 0 },
-          { "value": "b", "text": "Withdraw and observe from the sidelines", "score": 1 },
-          { "value": "c", "text": "Ask questions and try to figure it out", "score": 2 },
-          { "value": "d", "text": "Jump in and learn from mistakes", "score": 3 }
+          {
+            "value": "a",
+            "text": "Freeze and feel deeply uncomfortable",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "Withdraw and observe from the sidelines",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "Ask questions and try to figure it out",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Jump in and learn from mistakes",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q2",
         "text": "How do you respond when things don't work the way you expect them to?",
         "options": [
-          { "value": "a", "text": "I get frustrated and it affects my mood significantly", "score": 0 },
-          { "value": "b", "text": "I'm frustrated but I manage to keep perspective", "score": 1 },
-          { "value": "c", "text": "I adapt my expectations relatively quickly", "score": 2 },
-          { "value": "d", "text": "I find it interesting rather than frustrating", "score": 3 }
+          {
+            "value": "a",
+            "text": "I get frustrated and it affects my mood significantly",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I'm frustrated but I manage to keep perspective",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I adapt my expectations relatively quickly",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I find it interesting rather than frustrating",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q3",
         "text": "When you feel lonely or isolated, your typical response is to:",
         "options": [
-          { "value": "a", "text": "Withdraw further and wait for it to pass", "score": 0 },
-          { "value": "b", "text": "Reach out to people at home", "score": 1 },
-          { "value": "c", "text": "Make an effort to connect with people around me", "score": 2 },
-          { "value": "d", "text": "Use it as an opportunity for self-reflection and then actively seek connection", "score": 3 }
+          {
+            "value": "a",
+            "text": "Withdraw further and wait for it to pass",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "Reach out to people at home",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "Make an effort to connect with people around me",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Use it as an opportunity for self-reflection and then actively seek connection",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q4",
         "text": "How do you feel about making mistakes in public — mispronouncing words, misunderstanding social cues, doing the wrong thing?",
         "options": [
-          { "value": "a", "text": "It's mortifying and I avoid situations where it might happen", "score": 0 },
-          { "value": "b", "text": "It bothers me but I can recover", "score": 1 },
-          { "value": "c", "text": "I'm mildly embarrassed but I move on quickly", "score": 2 },
-          { "value": "d", "text": "I expect to make mistakes and find them useful", "score": 3 }
+          {
+            "value": "a",
+            "text": "It's mortifying and I avoid situations where it might happen",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "It bothers me but I can recover",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm mildly embarrassed but I move on quickly",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I expect to make mistakes and find them useful",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q5",
         "text": "When you're in a difficult period emotionally, how do you typically cope?",
         "options": [
-          { "value": "a", "text": "I struggle significantly and it takes a long time to recover", "score": 0 },
-          { "value": "b", "text": "I have some coping strategies but they're not always reliable", "score": 1 },
-          { "value": "c", "text": "I have established practices that help me manage", "score": 2 },
-          { "value": "d", "text": "I have strong, reliable coping strategies and a support system", "score": 3 }
+          {
+            "value": "a",
+            "text": "I struggle significantly and it takes a long time to recover",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some coping strategies but they're not always reliable",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have established practices that help me manage",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have strong, reliable coping strategies and a support system",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q6",
         "text": "How do you feel about the idea that your home culture might not be superior to other cultures?",
         "options": [
-          { "value": "a", "text": "I find it uncomfortable — I believe my culture does things better", "score": 0 },
-          { "value": "b", "text": "I intellectually accept it but emotionally I still prefer my way", "score": 1 },
-          { "value": "c", "text": "I genuinely believe different cultures have different strengths", "score": 2 },
-          { "value": "d", "text": "I'm genuinely curious about different ways of doing things and try to learn from them", "score": 3 }
+          {
+            "value": "a",
+            "text": "I find it uncomfortable — I believe my culture does things better",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I intellectually accept it but emotionally I still prefer my way",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I genuinely believe different cultures have different strengths",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm genuinely curious about different ways of doing things and try to learn from them",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q7",
         "text": "How important is routine and predictability to your wellbeing?",
         "options": [
-          { "value": "a", "text": "Essential — I function poorly without established routines", "score": 0 },
-          { "value": "b", "text": "Important — I prefer routine but can manage without it", "score": 1 },
-          { "value": "c", "text": "Helpful but not critical", "score": 2 },
-          { "value": "d", "text": "I actually find too much routine stifling", "score": 3 }
+          {
+            "value": "a",
+            "text": "Essential — I function poorly without established routines",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "Important — I prefer routine but can manage without it",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "Helpful but not critical",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I actually find too much routine stifling",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q8",
         "text": "When you think about not fully understanding the culture around you for an extended period, you feel:",
         "options": [
-          { "value": "a", "text": "Anxious and overwhelmed", "score": 0 },
-          { "value": "b", "text": "Concerned but manageable", "score": 1 },
-          { "value": "c", "text": "Mildly uncomfortable but accepting", "score": 2 },
-          { "value": "d", "text": "Curious and interested", "score": 3 }
+          {
+            "value": "a",
+            "text": "Anxious and overwhelmed",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "Concerned but manageable",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "Mildly uncomfortable but accepting",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Curious and interested",
+            "score": 3
+          }
         ]
       }
     ],
     "results": [
       {
-        "range": [0, 7],
+        "range": [
+          0,
+          7
+        ],
         "label": "High Sensitivity",
         "emoji": "🌊",
         "headline": "Culture shock will hit you hard — and that's okay",
@@ -279,7 +582,10 @@
         "oracle_message": "Sensitivity is not weakness. It's information. The people who feel things deeply often have the richest experiences — they just need more support to navigate them. Build the support before you need it."
       },
       {
-        "range": [8, 15],
+        "range": [
+          8,
+          15
+        ],
         "label": "Moderate Sensitivity",
         "emoji": "🌤",
         "headline": "You'll have your hard moments — and you'll move through them",
@@ -292,7 +598,10 @@
         "oracle_message": "You're not immune to the hard parts. You're equipped for them. There's a difference. The equipment doesn't make the journey easy. It makes it navigable."
       },
       {
-        "range": [16, 24],
+        "range": [
+          16,
+          24
+        ],
         "label": "High Resilience",
         "emoji": "🌟",
         "headline": "You're built for this kind of challenge",
@@ -317,93 +626,224 @@
     "category": "money-banking",
     "estimated_minutes": 4,
     "question_count": 8,
-    "hero_url": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=80",
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-financial-readiness-quiz.webp",
     "intro": "Financial preparation is one of the most critical — and most commonly underestimated — aspects of moving abroad. This quiz will help you identify your financial readiness and the specific gaps to address.",
     "questions": [
       {
         "id": "q1",
         "text": "How many months of living expenses do you have saved?",
         "options": [
-          { "value": "a", "text": "Less than 1 month", "score": 0 },
-          { "value": "b", "text": "1-3 months", "score": 1 },
-          { "value": "c", "text": "3-6 months", "score": 2 },
-          { "value": "d", "text": "6+ months", "score": 3 }
+          {
+            "value": "a",
+            "text": "Less than 1 month",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "1-3 months",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "3-6 months",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "6+ months",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q2",
         "text": "What is your income situation for abroad?",
         "options": [
-          { "value": "a", "text": "I don't have a clear income plan yet", "score": 0 },
-          { "value": "b", "text": "I have some ideas but nothing confirmed", "score": 1 },
-          { "value": "c", "text": "I have a confirmed income source (job, freelance clients, pension)", "score": 2 },
-          { "value": "d", "text": "I have multiple confirmed income sources and a financial buffer", "score": 3 }
+          {
+            "value": "a",
+            "text": "I don't have a clear income plan yet",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some ideas but nothing confirmed",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have a confirmed income source (job, freelance clients, pension)",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have multiple confirmed income sources and a financial buffer",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q3",
         "text": "Have you researched the tax implications of moving abroad for your specific situation?",
         "options": [
-          { "value": "a", "text": "No, I haven't thought about it", "score": 0 },
-          { "value": "b", "text": "I've done some general reading", "score": 1 },
-          { "value": "c", "text": "I understand the basics and have identified what I need to know", "score": 2 },
-          { "value": "d", "text": "I've consulted an expat tax professional and have a clear plan", "score": 3 }
+          {
+            "value": "a",
+            "text": "No, I haven't thought about it",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I've done some general reading",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I understand the basics and have identified what I need to know",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I've consulted an expat tax professional and have a clear plan",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q4",
         "text": "What is your plan for banking and money transfers abroad?",
         "options": [
-          { "value": "a", "text": "I'll use my home country bank card", "score": 0 },
-          { "value": "b", "text": "I'm looking into options", "score": 1 },
-          { "value": "c", "text": "I have a multi-currency account (Wise/Revolut) set up", "score": 2 },
-          { "value": "d", "text": "I have a multi-currency account and a plan for opening a local account", "score": 3 }
+          {
+            "value": "a",
+            "text": "I'll use my home country bank card",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I'm looking into options",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have a multi-currency account (Wise/Revolut) set up",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have a multi-currency account and a plan for opening a local account",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q5",
         "text": "Have you budgeted for the one-time costs of the move itself?",
         "options": [
-          { "value": "a", "text": "No, I haven't thought about this separately", "score": 0 },
-          { "value": "b", "text": "I have a rough estimate", "score": 1 },
-          { "value": "c", "text": "I have a detailed estimate of moving costs", "score": 2 },
-          { "value": "d", "text": "I have a detailed estimate and the funds set aside", "score": 3 }
+          {
+            "value": "a",
+            "text": "No, I haven't thought about this separately",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have a rough estimate",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have a detailed estimate of moving costs",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have a detailed estimate and the funds set aside",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q6",
         "text": "What is your plan for health insurance abroad?",
         "options": [
-          { "value": "a", "text": "I haven't arranged anything", "score": 0 },
-          { "value": "b", "text": "I'm planning to use travel insurance", "score": 1 },
-          { "value": "c", "text": "I'm researching international health insurance options", "score": 2 },
-          { "value": "d", "text": "I have comprehensive international health insurance arranged", "score": 3 }
+          {
+            "value": "a",
+            "text": "I haven't arranged anything",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I'm planning to use travel insurance",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm researching international health insurance options",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have comprehensive international health insurance arranged",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q7",
         "text": "Have you researched the cost of living in your specific destination city?",
         "options": [
-          { "value": "a", "text": "No, I'm going on general impressions", "score": 0 },
-          { "value": "b", "text": "I've looked at some general cost of living comparisons", "score": 1 },
-          { "value": "c", "text": "I've researched specific costs for housing, food, and transportation", "score": 2 },
-          { "value": "d", "text": "I have a detailed monthly budget based on current local prices", "score": 3 }
+          {
+            "value": "a",
+            "text": "No, I'm going on general impressions",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I've looked at some general cost of living comparisons",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I've researched specific costs for housing, food, and transportation",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have a detailed monthly budget based on current local prices",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q8",
         "text": "Do you have a financial plan for emergencies — medical, legal, or having to return home unexpectedly?",
         "options": [
-          { "value": "a", "text": "No emergency fund", "score": 0 },
-          { "value": "b", "text": "I have some savings but not specifically for emergencies", "score": 1 },
-          { "value": "c", "text": "I have an emergency fund of 1-2 months expenses", "score": 2 },
-          { "value": "d", "text": "I have a dedicated emergency fund of 3+ months and emergency travel funds", "score": 3 }
+          {
+            "value": "a",
+            "text": "No emergency fund",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some savings but not specifically for emergencies",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have an emergency fund of 1-2 months expenses",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have a dedicated emergency fund of 3+ months and emergency travel funds",
+            "score": 3
+          }
         ]
       }
     ],
     "results": [
       {
-        "range": [0, 7],
+        "range": [
+          0,
+          7
+        ],
         "label": "Financial Gaps",
         "emoji": "⚠️",
         "headline": "Your financial preparation needs significant work",
@@ -416,7 +856,10 @@
         "oracle_message": "Money is not the most important thing about moving abroad. But running out of it will end the adventure faster than anything else. Get this foundation right before you go."
       },
       {
-        "range": [8, 15],
+        "range": [
+          8,
+          15
+        ],
         "label": "Building Financial Foundation",
         "emoji": "🏗️",
         "headline": "Your financial foundation is forming — close the gaps",
@@ -429,7 +872,10 @@
         "oracle_message": "You're building the right things. The gaps you have are real but manageable. Close them systematically. Don't let the perfect be the enemy of the good — but don't ignore the gaps either."
       },
       {
-        "range": [16, 24],
+        "range": [
+          16,
+          24
+        ],
         "label": "Financially Ready",
         "emoji": "✅",
         "headline": "Your financial preparation is solid",
@@ -454,93 +900,224 @@
     "category": "culture-identity",
     "estimated_minutes": 5,
     "question_count": 8,
-    "hero_url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80",
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-identity-quiz.webp",
     "intro": "There are many ways to be an expat. Some people integrate deeply into their adopted culture. Others maintain strong ties to their home culture. Most find themselves somewhere in between. This quiz will help you understand your natural tendencies and what they mean for your expat experience.",
     "questions": [
       {
         "id": "q1",
         "text": "When you imagine your ideal social life abroad, it looks like:",
         "options": [
-          { "value": "a", "text": "Primarily socializing with other expats from my home country", "score": 1 },
-          { "value": "b", "text": "A mix of expats from various countries", "score": 2 },
-          { "value": "c", "text": "A mix of expats and local people", "score": 3 },
-          { "value": "d", "text": "Primarily local people with a few expat connections", "score": 4 }
+          {
+            "value": "a",
+            "text": "Primarily socializing with other expats from my home country",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "A mix of expats from various countries",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "A mix of expats and local people",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Primarily local people with a few expat connections",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q2",
         "text": "How important is it to you to learn the local language?",
         "options": [
-          { "value": "a", "text": "Not very — I can get by in English", "score": 1 },
-          { "value": "b", "text": "Somewhat — I'd like to learn basics", "score": 2 },
-          { "value": "c", "text": "Important — I plan to reach conversational level", "score": 3 },
-          { "value": "d", "text": "Essential — I want to become genuinely fluent", "score": 4 }
+          {
+            "value": "a",
+            "text": "Not very — I can get by in English",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Somewhat — I'd like to learn basics",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Important — I plan to reach conversational level",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Essential — I want to become genuinely fluent",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q3",
         "text": "How do you feel about adapting your behavior to fit local cultural norms?",
         "options": [
-          { "value": "a", "text": "I'd prefer to be myself and let others adapt", "score": 1 },
-          { "value": "b", "text": "I'll adapt for practical purposes but maintain my own identity", "score": 2 },
-          { "value": "c", "text": "I'm genuinely interested in understanding and adopting local norms", "score": 3 },
-          { "value": "d", "text": "I want to immerse myself as deeply as possible in the local culture", "score": 4 }
+          {
+            "value": "a",
+            "text": "I'd prefer to be myself and let others adapt",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "I'll adapt for practical purposes but maintain my own identity",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "I'm genuinely interested in understanding and adopting local norms",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I want to immerse myself as deeply as possible in the local culture",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q4",
         "text": "How long do you plan to stay abroad?",
         "options": [
-          { "value": "a", "text": "1-2 years — I see it as a temporary experience", "score": 1 },
-          { "value": "b", "text": "3-5 years — a significant chapter but not permanent", "score": 2 },
-          { "value": "c", "text": "Long-term — I'm open to staying indefinitely", "score": 3 },
-          { "value": "d", "text": "Permanently — I'm building a life there", "score": 4 }
+          {
+            "value": "a",
+            "text": "1-2 years — I see it as a temporary experience",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "3-5 years — a significant chapter but not permanent",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Long-term — I'm open to staying indefinitely",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Permanently — I'm building a life there",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q5",
         "text": "How important is it to you to maintain strong connections to your home country?",
         "options": [
-          { "value": "a", "text": "Essential — I see myself as primarily a citizen of my home country", "score": 1 },
-          { "value": "b", "text": "Important — I want to maintain my roots while building new ones", "score": 2 },
-          { "value": "c", "text": "Somewhat — I'll maintain family connections but I'm open to change", "score": 3 },
-          { "value": "d", "text": "Less important — I'm genuinely open to becoming part of a new culture", "score": 4 }
+          {
+            "value": "a",
+            "text": "Essential — I see myself as primarily a citizen of my home country",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Important — I want to maintain my roots while building new ones",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Somewhat — I'll maintain family connections but I'm open to change",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Less important — I'm genuinely open to becoming part of a new culture",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q6",
         "text": "When you think about the local food, customs, and way of life, you feel:",
         "options": [
-          { "value": "a", "text": "Curious but I'll probably stick to familiar things", "score": 1 },
-          { "value": "b", "text": "Interested in exploring but with my home culture as a baseline", "score": 2 },
-          { "value": "c", "text": "Genuinely excited to try new things and adopt new habits", "score": 3 },
-          { "value": "d", "text": "Eager to go as local as possible", "score": 4 }
+          {
+            "value": "a",
+            "text": "Curious but I'll probably stick to familiar things",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Interested in exploring but with my home culture as a baseline",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Genuinely excited to try new things and adopt new habits",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Eager to go as local as possible",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q7",
         "text": "How do you feel about the idea of your identity changing as a result of living abroad?",
         "options": [
-          { "value": "a", "text": "Uncomfortable — I want to stay who I am", "score": 1 },
-          { "value": "b", "text": "Neutral — some change is fine but I want to stay recognizably myself", "score": 2 },
-          { "value": "c", "text": "Open — I'm interested in who I might become", "score": 3 },
-          { "value": "d", "text": "Excited — transformation is part of why I'm going", "score": 4 }
+          {
+            "value": "a",
+            "text": "Uncomfortable — I want to stay who I am",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Neutral — some change is fine but I want to stay recognizably myself",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Open — I'm interested in who I might become",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Excited — transformation is part of why I'm going",
+            "score": 4
+          }
         ]
       },
       {
         "id": "q8",
         "text": "What does success abroad look like to you?",
         "options": [
-          { "value": "a", "text": "Having a comfortable life that's similar to home but in a new place", "score": 1 },
-          { "value": "b", "text": "Building a good life while maintaining my home culture identity", "score": 2 },
-          { "value": "c", "text": "Becoming genuinely bicultural — comfortable in both worlds", "score": 3 },
-          { "value": "d", "text": "Becoming genuinely part of the local culture", "score": 4 }
+          {
+            "value": "a",
+            "text": "Having a comfortable life that's similar to home but in a new place",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Building a good life while maintaining my home culture identity",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Becoming genuinely bicultural — comfortable in both worlds",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Becoming genuinely part of the local culture",
+            "score": 4
+          }
         ]
       }
     ],
     "results": [
       {
-        "range": [8, 14],
+        "range": [
+          8,
+          14
+        ],
         "label": "The Expatriate",
         "emoji": "🏠",
         "headline": "You're an Expatriate — abroad but anchored at home",
@@ -553,7 +1130,10 @@
         "oracle_message": "There is no wrong way to be an expat. The question is whether your choices are conscious or default. If you're choosing the expat bubble, choose it deliberately. If you're defaulting to it out of fear, that's worth examining."
       },
       {
-        "range": [15, 22],
+        "range": [
+          15,
+          22
+        ],
         "label": "The Bridge Builder",
         "emoji": "🌉",
         "headline": "You're a Bridge Builder — comfortable in both worlds",
@@ -566,7 +1146,10 @@
         "oracle_message": "Living between worlds is a gift and a challenge. You'll never fully belong anywhere — and you'll belong everywhere in a way that most people never experience. That's worth something."
       },
       {
-        "range": [23, 32],
+        "range": [
+          23,
+          32
+        ],
         "label": "The Integrator",
         "emoji": "🌍",
         "headline": "You're an Integrator — going deep",
@@ -591,83 +1174,198 @@
     "category": "relationships",
     "estimated_minutes": 4,
     "question_count": 7,
-    "hero_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/trailing-spouse-support-quiz.webp",
     "intro": "Moving abroad as the partner who follows — the trailing spouse — is a specific experience with specific challenges. This assessment will help you understand your situation and what you need to build a life that works for you, not just for your partner.",
     "questions": [
       {
         "id": "q1",
         "text": "How enthusiastic are you about this move?",
         "options": [
-          { "value": "a", "text": "Honestly, I'm doing this for my partner — I wouldn't have chosen it myself", "score": 0 },
-          { "value": "b", "text": "I have mixed feelings — some excitement, some reluctance", "score": 1 },
-          { "value": "c", "text": "I'm genuinely looking forward to it, even though it was primarily my partner's idea", "score": 2 },
-          { "value": "d", "text": "I'm as enthusiastic as my partner, if not more", "score": 3 }
+          {
+            "value": "a",
+            "text": "Honestly, I'm doing this for my partner — I wouldn't have chosen it myself",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have mixed feelings — some excitement, some reluctance",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm genuinely looking forward to it, even though it was primarily my partner's idea",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm as enthusiastic as my partner, if not more",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q2",
         "text": "What are you giving up to make this move?",
         "options": [
-          { "value": "a", "text": "A career, a social network, and a strong sense of identity in my current role", "score": 0 },
-          { "value": "b", "text": "A job and some social connections, but I was ready for a change", "score": 1 },
-          { "value": "c", "text": "Some social connections, but my career can travel with me", "score": 2 },
-          { "value": "d", "text": "Not much — I was ready to leave anyway", "score": 3 }
+          {
+            "value": "a",
+            "text": "A career, a social network, and a strong sense of identity in my current role",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "A job and some social connections, but I was ready for a change",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "Some social connections, but my career can travel with me",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Not much — I was ready to leave anyway",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q3",
         "text": "Have you and your partner had an honest conversation about what you need to build your own life abroad?",
         "options": [
-          { "value": "a", "text": "No, we haven't really talked about my needs specifically", "score": 0 },
-          { "value": "b", "text": "We've talked about it briefly but not in depth", "score": 1 },
-          { "value": "c", "text": "We've had a good conversation and my partner understands what I need", "score": 2 },
-          { "value": "d", "text": "We have a clear shared plan for how I'll build my own life there", "score": 3 }
+          {
+            "value": "a",
+            "text": "No, we haven't really talked about my needs specifically",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "We've talked about it briefly but not in depth",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We've had a good conversation and my partner understands what I need",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We have a clear shared plan for how I'll build my own life there",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q4",
         "text": "Do you have a plan for your own professional or personal development abroad?",
         "options": [
-          { "value": "a", "text": "No — I'm not sure what I'll do", "score": 0 },
-          { "value": "b", "text": "I have some vague ideas but nothing concrete", "score": 1 },
-          { "value": "c", "text": "I have a specific plan for work or a project I want to pursue", "score": 2 },
-          { "value": "d", "text": "I have a clear plan and I'm genuinely excited about it", "score": 3 }
+          {
+            "value": "a",
+            "text": "No — I'm not sure what I'll do",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some vague ideas but nothing concrete",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have a specific plan for work or a project I want to pursue",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have a clear plan and I'm genuinely excited about it",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q5",
         "text": "How do you feel about the possibility of resentment building over time?",
         "options": [
-          { "value": "a", "text": "I'm already feeling some resentment and I'm worried about it growing", "score": 0 },
-          { "value": "b", "text": "I'm aware of the risk and I'm not sure how to manage it", "score": 1 },
-          { "value": "c", "text": "I'm aware of the risk and I have some strategies for managing it", "score": 2 },
-          { "value": "d", "text": "I don't feel resentment — I'm genuinely choosing this", "score": 3 }
+          {
+            "value": "a",
+            "text": "I'm already feeling some resentment and I'm worried about it growing",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I'm aware of the risk and I'm not sure how to manage it",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm aware of the risk and I have some strategies for managing it",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I don't feel resentment — I'm genuinely choosing this",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q6",
         "text": "What support systems do you have in place for the transition?",
         "options": [
-          { "value": "a", "text": "Primarily my partner — I don't have other support systems in place", "score": 0 },
-          { "value": "b", "text": "My partner and some remote connections at home", "score": 1 },
-          { "value": "c", "text": "My partner, remote connections, and a plan for building local connections", "score": 2 },
-          { "value": "d", "text": "A robust support system including my partner, remote connections, and local contacts already identified", "score": 3 }
+          {
+            "value": "a",
+            "text": "Primarily my partner — I don't have other support systems in place",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "My partner and some remote connections at home",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "My partner, remote connections, and a plan for building local connections",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "A robust support system including my partner, remote connections, and local contacts already identified",
+            "score": 3
+          }
         ]
       },
       {
         "id": "q7",
         "text": "How do you feel about your identity outside of your relationship?",
         "options": [
-          { "value": "a", "text": "I'm worried about losing my sense of self — my identity is strongly tied to my current role and context", "score": 0 },
-          { "value": "b", "text": "I have some concerns but I have a sense of who I am beyond my current context", "score": 1 },
-          { "value": "c", "text": "I have a strong sense of identity that I'm confident will survive the transition", "score": 2 },
-          { "value": "d", "text": "I see this as an opportunity to build a new identity that's more authentically mine", "score": 3 }
+          {
+            "value": "a",
+            "text": "I'm worried about losing my sense of self — my identity is strongly tied to my current role and context",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some concerns but I have a sense of who I am beyond my current context",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have a strong sense of identity that I'm confident will survive the transition",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I see this as an opportunity to build a new identity that's more authentically mine",
+            "score": 3
+          }
         ]
       }
     ],
     "results": [
       {
-        "range": [0, 6],
+        "range": [
+          0,
+          6
+        ],
         "label": "High Risk",
         "emoji": "🚨",
         "headline": "The trailing spouse experience will be very hard for you without significant support",
@@ -680,7 +1378,10 @@
         "oracle_message": "The resentment you're feeling is real and it's valid. It needs to be spoken, not swallowed. The relationship can survive this transition — but only if both people are honest about what it's costing."
       },
       {
-        "range": [7, 13],
+        "range": [
+          7,
+          13
+        ],
         "label": "Manageable with Work",
         "emoji": "🌿",
         "headline": "You can make this work — with deliberate effort",
@@ -693,7 +1394,10 @@
         "oracle_message": "You're not just following someone else's dream. You're choosing to build your own life in a new place. The distinction matters. Make it real by building something that's genuinely yours."
       },
       {
-        "range": [14, 21],
+        "range": [
+          14,
+          21
+        ],
         "label": "Well Positioned",
         "emoji": "🌟",
         "headline": "You're well positioned for the trailing spouse experience",
@@ -706,5 +1410,1523 @@
         "oracle_message": "You've done the work. Now trust it. The transition will still be hard in places. That's not a sign that you didn't prepare well enough. It's just the nature of the transition."
       }
     ]
+  },
+  {
+    "id": 6,
+    "slug": "digital-nomad-readiness-quiz",
+    "title": "Are You Cut Out for the Digital Nomad Life?",
+    "subtitle": "The Digital Nomad Readiness Assessment",
+    "meta_desc": "Find out if the digital nomad lifestyle actually fits your work style, personality, and life situation — before you book the one-way ticket.",
+    "og_title": "Are You Cut Out for Digital Nomad Life? Take the Quiz",
+    "og_desc": "Find out if location independence is right for you — or just a fantasy you need to examine.",
+    "category": "work-legal",
+    "estimated_minutes": 5,
+    "question_count": 9,
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/digital-nomad-readiness-quiz.webp",
+    "intro": "The digital nomad lifestyle looks incredible on Instagram. The reality involves timezone management, client communication across continents, and figuring out where to sleep next month. This assessment cuts through the fantasy.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How do you perform when your work environment changes frequently?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I need a consistent space to do my best work",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I can adapt but it takes me a few days",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I adapt reasonably well to new spaces",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I thrive in new environments — novelty energizes me",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is your current work situation?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I work a traditional office job with no remote option",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some remote flexibility but not full location independence",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I work fully remotely for an employer",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I freelance or run my own business with full location independence",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How do you handle loneliness and social isolation?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I struggle significantly without regular social contact",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "It's hard but I can manage short periods",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm comfortable with solitude and can build social connections in new places",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm highly self-sufficient socially and enjoy meeting new people easily",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How stable is your income?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I have no reliable remote income yet",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have some remote income but it's inconsistent",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I have stable remote income that covers my current expenses",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I have stable remote income plus savings runway of 6+ months",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How do you feel about not having a permanent home base?",
+        "options": [
+          {
+            "value": "a",
+            "text": "The idea makes me anxious — I need a home",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I'm intrigued but worried about the logistics",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm excited about the freedom, aware of the tradeoffs",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I've already tested this and know it works for me",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "How are your self-discipline and time management skills?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I need external structure to stay productive",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I manage okay but struggle without accountability",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm generally self-directed and meet my deadlines",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm highly self-disciplined and productive in any environment",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is your relationship status and how does it factor in?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I have a partner/family who cannot or will not travel",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I have a partner who is uncertain about the lifestyle",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I'm single or my partner is open to the lifestyle",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm single or my partner is equally committed to this lifestyle",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How do you handle bureaucratic challenges (visas, taxes, banking) in new countries?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I find bureaucracy overwhelming and stressful",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I manage but it takes a lot of energy",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I approach it systematically and get it done",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I'm good at research and enjoy solving these puzzles",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Have you tested the nomad lifestyle before committing fully?",
+        "options": [
+          {
+            "value": "a",
+            "text": "No, I've never worked remotely while traveling",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "I've worked remotely on vacation but not for extended periods",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "I've done 1-3 month remote work stints abroad",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "I've lived the nomad life for 3+ months and know what I'm getting into",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "scoring": {
+      "max_score": 27,
+      "ranges": [
+        {
+          "min": 0,
+          "max": 8,
+          "label": "Not Ready Yet",
+          "oracle_message": "Look, here's the thing. The nomad life is not a lifestyle upgrade you can buy with a one-way ticket. Right now, you're missing the foundation: stable remote income, self-discipline tested in unfamiliar environments, and a clear-eyed view of what you're trading. None of that is permanent. But it's real. Build the income first. Test the remote work for three months before you go full nomad. The fantasy is real. The timeline just needs adjusting."
+        },
+        {
+          "min": 9,
+          "max": 16,
+          "label": "Getting There",
+          "oracle_message": "You have some of the pieces. The income is developing, the mindset is forming. What you need now is a test run. Not a vacation. A real 60-day work stint in a new city, paying rent, managing your own schedule, handling the loneliness when it comes. That test will tell you more than any quiz. Stop theorizing. Go test it."
+        },
+        {
+          "min": 17,
+          "max": 22,
+          "label": "Ready to Test",
+          "oracle_message": "You're genuinely ready to try this. You have the income, the self-discipline, and the right mindset about the tradeoffs. The question now is execution. Pick one city for three months. Not a tour. A base. Get a proper apartment, set up your work routine, and see what the lifestyle actually feels like when the novelty wears off. You'll know by month two whether this is your life or just a chapter."
+        },
+        {
+          "min": 23,
+          "max": 27,
+          "label": "Born for This",
+          "oracle_message": "You're not asking if you're ready. You're asking for permission. You don't need it. You have the income, the temperament, the experience, and the self-awareness. The only thing left is the decision. Make it. Then execute it properly: visa research, tax structure, health insurance. The logistics are mechanical. You know that. Now go."
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "slug": "expat-relationship-health-quiz",
+    "title": "Is Your Relationship Expat-Proof?",
+    "subtitle": "The Expat Relationship Health Assessment",
+    "meta_desc": "Moving abroad is one of the most stressful things a couple can do. Find out if your relationship has the foundations to survive and thrive abroad.",
+    "og_title": "Is Your Relationship Expat-Proof? Take the Quiz",
+    "og_desc": "Discover whether your relationship has the foundations to survive the expat experience.",
+    "category": "relationships",
+    "estimated_minutes": 4,
+    "question_count": 8,
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-relationship-health-quiz.webp",
+    "intro": "Moving abroad puts relationships under a microscope. Every unresolved issue gets amplified. Every strength gets tested. This assessment helps you identify where your relationship is solid and where you need to do work before you go.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How aligned are you and your partner on the decision to move abroad?",
+        "options": [
+          {
+            "value": "a",
+            "text": "One of us wants to go, the other is reluctant or opposed",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "We both want to go but have significant disagreements about where, when, or how",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We're mostly aligned with some areas still to work out",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We made this decision together and are genuinely excited as a team",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How does your relationship handle stress and conflict?",
+        "options": [
+          {
+            "value": "a",
+            "text": "We struggle significantly with conflict — it often goes unresolved",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "We manage but conflict is messy and takes a long time to resolve",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We have decent communication and usually work through conflict",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We handle conflict well — we have tools and we use them",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How will the move affect each person's career or professional identity?",
+        "options": [
+          {
+            "value": "a",
+            "text": "One person is giving up their career entirely with no clear plan",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "One person is making a significant sacrifice with some resentment",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "Both have plans, though one person's situation is less certain",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Both have clear plans for work or purposeful activity in the new country",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How do you handle extended periods of close proximity — like being together 24/7?",
+        "options": [
+          {
+            "value": "a",
+            "text": "We've never tested this and I'm worried about it",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "We've done it briefly and it was stressful",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We've done it and managed reasonably well",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We genuinely enjoy each other's company and handle it well",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How do you each handle social isolation and building new friendships?",
+        "options": [
+          {
+            "value": "a",
+            "text": "One or both of us struggles significantly with this",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "It's hard for both of us but we manage",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "One of us is better at it than the other",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We're both reasonably good at building new social connections",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Have you discussed finances — who controls what, how you'll manage money abroad?",
+        "options": [
+          {
+            "value": "a",
+            "text": "No, we haven't had that conversation",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "We've talked about it briefly but there's no clear plan",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We have a general plan but some details are still unclear",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We have a clear financial plan for the move and life abroad",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How does each person relate to their home country and the family they're leaving?",
+        "options": [
+          {
+            "value": "a",
+            "text": "One person has very strong ties and is already showing signs of guilt or grief",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "Both have strong ties and we haven't fully processed what leaving means",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We've talked about it and have some strategies for staying connected",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "We've both processed the emotional reality and have clear plans for maintaining connections",
+            "score": 3
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How would you describe your relationship's overall foundation right now?",
+        "options": [
+          {
+            "value": "a",
+            "text": "There are significant unresolved issues we're hoping the move will fix",
+            "score": 0
+          },
+          {
+            "value": "b",
+            "text": "There are some issues we haven't fully addressed",
+            "score": 1
+          },
+          {
+            "value": "c",
+            "text": "We're in a good place with some things still to work on",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Our relationship is solid — we're moving from strength, not running from something",
+            "score": 3
+          }
+        ]
+      }
+    ],
+    "scoring": {
+      "max_score": 24,
+      "ranges": [
+        {
+          "min": 0,
+          "max": 7,
+          "label": "Significant Work Needed",
+          "oracle_message": "Stop. I say this with care, not judgment. Moving abroad will not fix what's broken. It will amplify it. The unresolved conflict, the career sacrifice with no plan, the hope that a new location will reset things — that's not how it works. The work is here, before you go. Couples therapy before the move is not a sign of weakness. It's the most practical thing you can do. The move can still happen. But not yet."
+        },
+        {
+          "min": 8,
+          "max": 14,
+          "label": "Needs Attention",
+          "oracle_message": "Your relationship has real strengths. It also has gaps that will become problems in the stress of relocation. The good news: these are fixable. The financial conversation you haven't had? Have it this week. The career sacrifice that's creating quiet resentment? Address it directly. The social isolation concern? Make a plan. You have time to do this work before you go. Use it."
+        },
+        {
+          "min": 15,
+          "max": 20,
+          "label": "Solid Foundation",
+          "oracle_message": "Your relationship has the foundation to handle this. You communicate, you've made the decision together, and you're both going in with eyes open. The challenges ahead are real — the close proximity, the social rebuilding, the identity shifts — but you have the tools. Keep talking. Keep checking in. The couples who thrive abroad are the ones who make their relationship a priority even when everything else is demanding attention."
+        },
+        {
+          "min": 21,
+          "max": 24,
+          "label": "Expat-Strong",
+          "oracle_message": "You've done the work. You made the decision together, you've talked about the hard stuff, and you're both going in with clear plans and open eyes. This is what expat relationship success looks like before the move. The adventure ahead will test you — all adventures do. But you're going in from strength. That matters more than you know."
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "slug": "expat-language-learning-quiz",
+    "title": "What's Your Language Learning Style Abroad?",
+    "subtitle": "The Expat Language Learning Assessment",
+    "meta_desc": "Discover your language learning style and get a personalized strategy for learning the local language in your new country.",
+    "og_title": "What's Your Language Learning Style Abroad?",
+    "og_desc": "Get a personalized language learning strategy based on how you actually learn.",
+    "category": "culture-identity",
+    "estimated_minutes": 4,
+    "question_count": 7,
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-language-learning-quiz.webp",
+    "intro": "Language learning is not one-size-fits-all. Some people learn through immersion. Others need structure. Some need social pressure. Others need solitude. This assessment identifies your learning style and gives you a strategy that actually fits how your brain works.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How did you learn best in school?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Through repetition, drills, and structured exercises",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Through conversation and interaction with others",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Through reading, writing, and self-study",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Through immersion — being thrown in and figuring it out",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How do you feel about making mistakes in front of native speakers?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Very uncomfortable — I avoid speaking until I feel ready",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Uncomfortable but I push through it",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Mildly uncomfortable but I see it as part of learning",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Fine with it — mistakes are how I learn fastest",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How much time can you realistically commit to language study each day?",
+        "options": [
+          {
+            "value": "a",
+            "text": "15-20 minutes",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "30-45 minutes",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "1-2 hours",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I want to make language learning my primary focus",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "What is your goal with the local language?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Basic survival phrases — enough to get by",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Conversational fluency for daily life",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Professional proficiency",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Full fluency — I want to think in this language",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How do you prefer to practice?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Apps and structured digital tools (Duolingo, Babbel)",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Classes with a teacher and other students",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "One-on-one tutoring or language exchange partners",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Real-world immersion — talking to locals, watching TV, reading",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "How quickly do you typically pick up new languages?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Slowly — languages have always been difficult for me",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Average — it takes time but I get there",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Reasonably fast when I'm consistent",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Quickly — I've learned other languages before",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How important is language learning to your expat experience?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Not very — I'll manage with English",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Somewhat — I want basics but it's not my priority",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Important — I want to integrate into local life",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Central — language is how I'll build real connections here",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "scoring": {
+      "max_score": 28,
+      "ranges": [
+        {
+          "min": 7,
+          "max": 13,
+          "label": "The Systematic Learner",
+          "oracle_message": "You learn best with structure, repetition, and a clear system. Apps like Anki for flashcards and a structured course will work better for you than throwing yourself into conversations before you're ready. That's not a weakness. It's self-knowledge. Start with Pimsleur or a structured class. Build your foundation before you push into real-world practice. You'll get there — just on your own timeline."
+        },
+        {
+          "min": 14,
+          "max": 19,
+          "label": "The Social Learner",
+          "oracle_message": "You learn through people. Classes, language exchange partners, conversation groups — these are your tools. The structure helps, but what really accelerates you is human interaction. Find a language exchange partner in your first week. Join a conversation class. Make language learning a social activity, not a solo one. The accountability of a real person waiting for you to show up will do more than any app."
+        },
+        {
+          "min": 20,
+          "max": 24,
+          "label": "The Immersion Learner",
+          "oracle_message": "You learn by doing. Formal study bores you. What works is being forced to use the language in real situations. Make a rule: one interaction per day entirely in the local language. Order coffee. Ask for directions. Shop at the local market. The discomfort is the point. Your brain is wired to learn under pressure. Give it what it needs."
+        },
+        {
+          "min": 25,
+          "max": 28,
+          "label": "The Dedicated Linguist",
+          "oracle_message": "You're serious about this. Language is not a side project for you — it's how you'll build a real life here. Combine all the methods: structured study in the morning, real-world practice during the day, media immersion in the evening. Set a 90-day goal. Track it. At this level of commitment, you'll be conversational in three months in most languages. The work you're willing to put in is the variable that matters most."
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "slug": "expat-housing-quiz",
+    "title": "What Kind of Housing Is Right for You Abroad?",
+    "subtitle": "The Expat Housing Style Assessment",
+    "meta_desc": "Find out what type of housing setup actually fits your expat lifestyle — from furnished apartments to coliving spaces to buying property.",
+    "og_title": "What Kind of Housing Is Right for You Abroad?",
+    "og_desc": "Discover the housing setup that fits your expat lifestyle, budget, and personality.",
+    "category": "getting-started",
+    "estimated_minutes": 4,
+    "question_count": 8,
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-housing-quiz.webp",
+    "intro": "Housing is not just logistics. It shapes your social life, your mental health, your integration into local culture, and your daily experience of living abroad. This assessment helps you figure out what kind of setup actually fits your life.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How long are you planning to stay in your new country?",
+        "options": [
+          {
+            "value": "a",
+            "text": "1-3 months — testing it out",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "3-12 months — a medium-term stay",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "1-3 years — a significant chapter",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Long-term or permanently",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "What is your housing budget per month?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Under $500/month",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "$500-$1,000/month",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "$1,000-$2,000/month",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "$2,000+/month",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How important is having your own private space?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Very important — I need complete privacy and solitude",
+            "score": 4
+          },
+          {
+            "value": "b",
+            "text": "Important but I can share common areas",
+            "score": 3
+          },
+          {
+            "value": "c",
+            "text": "Moderately important — I like some privacy but enjoy community",
+            "score": 2
+          },
+          {
+            "value": "d",
+            "text": "Not very important — I prefer community living",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How do you feel about furnished vs. unfurnished apartments?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I want furnished — I'm not buying furniture in a new country",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Furnished is easier but I'd consider unfurnished for a longer stay",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "I'm happy to furnish a place if it means a better deal or location",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I want to make a place my own — unfurnished is fine",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How important is location and neighborhood to you?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I just need somewhere safe and affordable",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "I want a decent neighborhood within my budget",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Location is very important — I want to be in the right area",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Location is everything — I'll pay more to be exactly where I want",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Are you moving alone or with others?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Alone, and I want to meet people",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Alone, and I prefer my own space",
+            "score": 3
+          },
+          {
+            "value": "c",
+            "text": "With a partner",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "With family including children",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How do you feel about dealing with landlords and lease negotiations in a foreign language?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I want to avoid this entirely — I prefer managed accommodation",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "I'll manage but it's stressful",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "I'm comfortable with it — I'll research and prepare",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I'm good at this kind of negotiation",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Are you considering buying property abroad?",
+        "options": [
+          {
+            "value": "a",
+            "text": "No — renting only",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Maybe eventually, but not for the first year",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Yes, within the next 2-3 years",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Yes, buying is part of my plan from the start",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "scoring": {
+      "max_score": 32,
+      "ranges": [
+        {
+          "min": 8,
+          "max": 14,
+          "label": "Coliving or Serviced Apartment",
+          "oracle_message": "You're in test mode. You don't need a permanent base yet — you need a soft landing. Coliving spaces give you community, flexibility, and no lease commitment. Serviced apartments give you privacy without the hassle of furnishing. Both are right for your current stage. Don't sign a long lease until you know the city. Start flexible. Commit when you're sure."
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "label": "Furnished Long-Term Rental",
+          "oracle_message": "You need comfort and convenience without the commitment of buying. A furnished long-term rental is your sweet spot. Look for 6-12 month leases with flexible renewal. Get a local real estate agent or use a trusted expat platform. Inspect before you sign. Understand what utilities are included. The furnished apartment is not permanent — it's your base while you learn the city."
+        },
+        {
+          "min": 22,
+          "max": 27,
+          "label": "Unfurnished Long-Term Rental",
+          "oracle_message": "You're settling in. You want a place that feels like yours, not a hotel. An unfurnished rental lets you build a home. The furniture investment is real — budget for it. The payoff is a space that actually fits your life. Look for 1-2 year leases with clear renewal terms. Learn the local rental market before you commit. And yes, IKEA exists in most countries you're considering."
+        },
+        {
+          "min": 28,
+          "max": 32,
+          "label": "Property Purchase",
+          "oracle_message": "You're thinking long-term. Buying property abroad is a real option — but not in year one. The rule is simple: rent for at least one year in the neighborhood you're considering buying in. Learn the local property market. Understand the legal structure for foreign buyers. Get a local lawyer. The property will still be there in year two. The due diligence you do now will save you significant money and heartache."
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "slug": "expat-repatriation-readiness-quiz",
+    "title": "Are You Ready to Go Home?",
+    "subtitle": "The Repatriation Readiness Assessment",
+    "meta_desc": "Repatriation is often harder than the original move abroad. This assessment helps you understand if you're ready to go home — and what to expect.",
+    "og_title": "Are You Ready to Go Home? The Repatriation Quiz",
+    "og_desc": "Discover if you're ready to repatriate — and what reverse culture shock will look like for you.",
+    "category": "culture-identity",
+    "estimated_minutes": 4,
+    "question_count": 8,
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-repatriation-readiness-quiz.webp",
+    "intro": "Nobody talks about how hard going home is. After years abroad, your home country is not the place you left. And you are not the person who left it. This assessment helps you understand what repatriation will actually look like for you.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Why are you considering going home?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I'm homesick and struggling abroad — I need to go home",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Family circumstances require my return",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "A career opportunity is pulling me back",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I've completed this chapter and I'm choosing to go home",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How long have you been living abroad?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Less than 1 year",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "1-3 years",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "3-7 years",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "7+ years",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "How much has your home country changed since you left?",
+        "options": [
+          {
+            "value": "a",
+            "text": "I've been gone a short time — not much has changed",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Some things have changed but it's still familiar",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Significant changes — people, places, culture",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "It feels like a different country to me now",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How much have you changed since you left?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Not much — I'm essentially the same person",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Some changes in perspective and values",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Significant changes — my worldview has shifted",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I'm fundamentally different — my identity has been rebuilt abroad",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How do your home country friends and family relate to your expat experience?",
+        "options": [
+          {
+            "value": "a",
+            "text": "They understand and are interested",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "They're supportive but don't really get it",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "There's a disconnect — they've moved on and so have I",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I feel more foreign at home than I do abroad",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Do you have a clear plan for what your life will look like when you return?",
+        "options": [
+          {
+            "value": "a",
+            "text": "No — I'm going back to figure it out",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "I have a general idea but no specifics",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "I have a plan for housing and work but not much else",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I have a detailed plan for housing, work, and social reintegration",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How do you feel about leaving your expat life behind?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Relieved — I'm ready to be done with it",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Mixed — I'm ready but I'll miss things",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Sad — I'm leaving something I love",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Conflicted — I'm not sure I'm making the right choice",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Are you aware of reverse culture shock?",
+        "options": [
+          {
+            "value": "a",
+            "text": "No — I expect going home to be easy",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "I've heard of it but don't think it will affect me much",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Yes, and I'm preparing for it",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Yes, and I've already experienced it on visits home",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "scoring": {
+      "max_score": 32,
+      "ranges": [
+        {
+          "min": 8,
+          "max": 14,
+          "label": "Easy Return",
+          "oracle_message": "You haven't been gone long enough for repatriation to be complicated. The adjustment will be minimal. The main work is making sure you're going back for the right reasons, not running from something. If you're leaving because it's hard abroad, know that the hard thing usually follows you home. But if you're genuinely ready, the return will be straightforward."
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "label": "Moderate Adjustment Ahead",
+          "oracle_message": "You've changed. Your home country has changed. The return will be an adjustment, not a homecoming. Give yourself three to six months before you decide how you feel about being back. The initial disorientation is normal. The things that irritate you about home are real — but so are the things you missed. Both can be true. Let yourself feel both."
+        },
+        {
+          "min": 22,
+          "max": 27,
+          "label": "Reverse Culture Shock Is Coming",
+          "oracle_message": "You've been gone long enough and changed enough that going home is going to feel strange. The food will taste the same. The streets will look familiar. But you will feel like a stranger in a familiar place. That's reverse culture shock. It's documented, it's real, and it passes. Give yourself a year. Find the expat returnee community — they understand this in a way your home country friends won't. You're not broken. You're just between worlds."
+        },
+        {
+          "min": 28,
+          "max": 32,
+          "label": "You May Not Be Going Home",
+          "oracle_message": "Here's the honest question: is this actually home anymore? After this long, after this much change, the place you left may not be the place you're returning to. And you may not be the person who can fit back into it. That's not a failure. That's what happens when you live abroad long enough. Before you book the ticket, ask yourself: am I going back because I want to, or because I think I should? The answer matters."
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "slug": "expat-social-life-quiz",
+    "title": "What's Your Expat Social Style?",
+    "subtitle": "The Expat Social Life Assessment",
+    "meta_desc": "Discover your expat social style and get a personalized strategy for building a real social life in your new country.",
+    "og_title": "What's Your Expat Social Style? Take the Quiz",
+    "og_desc": "Get a personalized strategy for building a real social life abroad based on your personality.",
+    "category": "relationships",
+    "estimated_minutes": 4,
+    "question_count": 8,
+    "hero_url": "https://expat-newlife.b-cdn.net/assessments/expat-social-life-quiz.webp",
+    "intro": "Building a social life from scratch is one of the hardest parts of moving abroad. But not everyone needs the same kind of social life. This assessment identifies your social style and gives you a strategy that actually fits who you are.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How do you recharge after a long day?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Alone — I need solitude to recover",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "With one or two close people",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "With a small group of friends",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "With people — social energy recharges me",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "How do you feel about expat social events and meetups?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Overwhelming — too many strangers at once",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Useful but exhausting",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Fine — I can work a room when I need to",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Great — I love meeting new people",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "What kind of friendships do you value most?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Deep, long-term friendships with a few people",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "A small circle of close friends",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "A mix of close friends and wider social connections",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "A wide social network with many connections",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "How do you typically make friends?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Slowly, through repeated contact over time",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Through shared activities and interests",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Through work or structured social settings",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Easily — I connect with people quickly",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How do you feel about the transient nature of expat friendships?",
+        "options": [
+          {
+            "value": "a",
+            "text": "It's painful — I invest deeply and goodbyes are hard",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "I struggle with it but I'm learning to accept it",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "I've made peace with it — each friendship has value even if brief",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "I embrace it — I love meeting people from all over the world",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Do you prefer socializing with other expats or with locals?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Expats — shared experience makes connection easier",
+            "score": 2
+          },
+          {
+            "value": "b",
+            "text": "Locals — I want to integrate into the culture",
+            "score": 3
+          },
+          {
+            "value": "c",
+            "text": "Both equally",
+            "score": 4
+          },
+          {
+            "value": "d",
+            "text": "I'm not sure yet — I haven't been here long enough",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "How comfortable are you with language barriers in social settings?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Very uncomfortable — I avoid situations where I can't communicate well",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Uncomfortable but I push through",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Reasonably comfortable — I use humor and body language",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "Fine — I see it as part of the adventure",
+            "score": 4
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How much time are you willing to invest in building your social life?",
+        "options": [
+          {
+            "value": "a",
+            "text": "Minimal — I'm here for work or a specific purpose",
+            "score": 1
+          },
+          {
+            "value": "b",
+            "text": "Some — I want a social life but it's not my priority",
+            "score": 2
+          },
+          {
+            "value": "c",
+            "text": "Significant — a good social life is important to my wellbeing",
+            "score": 3
+          },
+          {
+            "value": "d",
+            "text": "A lot — building community is one of my main goals here",
+            "score": 4
+          }
+        ]
+      }
+    ],
+    "scoring": {
+      "max_score": 32,
+      "ranges": [
+        {
+          "min": 8,
+          "max": 14,
+          "label": "The Deep Connector",
+          "oracle_message": "You don't need many people. You need the right people. Stop going to big expat meetups that exhaust you. Instead, find one activity you genuinely love and do it consistently. The same yoga class every Tuesday. The same language exchange every Thursday. Repeated contact in a context you care about is how you build the deep friendships you need. It takes longer. It's worth it."
+        },
+        {
+          "min": 15,
+          "max": 21,
+          "label": "The Selective Socializer",
+          "oracle_message": "You need a small, solid circle. Not a wide network. The strategy: find your people through shared interests, not generic expat events. A hiking club. A book group. A cooking class. The shared activity does the work of breaking the ice. You do the work of going deeper with the two or three people you actually click with. Quality over quantity. Always."
+        },
+        {
+          "min": 22,
+          "max": 27,
+          "label": "The Balanced Builder",
+          "oracle_message": "You can work with both expats and locals, both structured events and organic connections. Your challenge is not finding people — it's going deep enough with the right ones. Use the wide net to find your people, then invest in the handful who matter. The expat social scene is a starting point, not a destination. Use it as a bridge to the local community you actually want to be part of."
+        },
+        {
+          "min": 28,
+          "max": 32,
+          "label": "The Social Catalyst",
+          "oracle_message": "You're the person who makes things happen. You'll build a social life faster than almost anyone. Your challenge is depth, not breadth. With your natural social ease, it's tempting to stay at the surface with many people. Push yourself to go deeper with fewer. The wide network is an asset. The deep friendships are what will sustain you when the novelty wears off."
+        }
+      ]
+    }
   }
 ]
