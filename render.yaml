@@ -11,24 +11,6 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 10000
-      - key: SITE_URL
-        value: https://expatnewlife.com
-      - key: SITE_HOST
-        value: expatnewlife.com
-      - key: SITE_NAME
-        value: ExpatNewLife
-      - key: BUNNY_STORAGE_ZONE
-        value: expat-newlife
-      - key: BUNNY_CDN_URL
-        value: https://expat-newlife.b-cdn.net
-      - key: BUNNY_STORAGE_ENDPOINT
-        value: https://ny.storage.bunnycdn.com
-      - key: AMAZON_TAG
-        value: spankyspinola-20
-      # Set these in the Render dashboard — do NOT commit real values:
-      - key: BUNNY_API_KEY
-        sync: false
-      - key: OPENAI_API_KEY
-        sync: false
+      # Optional: add your own OpenAI key for AI article generation cron
+      # - key: OPENAI_API_KEY
+      #   value: your-key-here

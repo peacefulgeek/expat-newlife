@@ -6,7 +6,7 @@
 
 // ─── Per-site Bunny credentials ───
 const BUNNY_STORAGE_ZONE = 'expat-newlife';
-const BUNNY_API_KEY      = process.env.BUNNY_API_KEY || '';
+const BUNNY_API_KEY      = '7ea07d93-ee8d-498c-8e777b0c5914-bc85-4a3a';
 const BUNNY_PULL_ZONE    = 'https://expat-newlife.b-cdn.net';
 const BUNNY_HOSTNAME     = 'ny.storage.bunnycdn.com';
 

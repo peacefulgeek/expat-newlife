@@ -35,7 +35,7 @@ async function checkAsin(asin, tag) {
 }
 
 export async function runAsinHealthCheck() {
-  const tag = process.env.AMAZON_AFFILIATE_TAG || 'movingabroad-20';
+  const tag = 'spankyspinola-20';
 
   try {
     const raw = await fs.readFile(DATA_PATH, 'utf8');
