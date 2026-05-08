@@ -12,11 +12,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const projectRoot = resolve(__dirname, '..');
 
+// ─── Always force production mode before spawning ───
+// This prevents Vite from being loaded in production if NODE_ENV is missing
+process.env.NODE_ENV = 'production';
+
 // ─── Start web server as child process ───
 const server = spawn('node', ['dist/index.js'], {
   cwd: projectRoot,
   stdio: 'inherit',
-  env: { ...process.env }
+  env: { ...process.env, NODE_ENV: 'production' }
 });
 
 server.on('exit', (code) => {
