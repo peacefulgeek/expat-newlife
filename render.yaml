@@ -4,7 +4,7 @@ services:
     runtime: node
     repo: https://github.com/peacefulgeek/expat-newlife
     branch: main
-    buildCommand: pnpm install && pnpm build
+    buildCommand: npm install -g pnpm@10 && pnpm install --frozen-lockfile && pnpm build
     startCommand: node scripts/start-with-cron.mjs
     plan: starter
     healthCheckPath: /health
