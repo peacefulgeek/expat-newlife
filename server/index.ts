@@ -9,12 +9,12 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
 const isDev = process.env.NODE_ENV !== 'production';
-const PORT = parseInt(process.env.PORT || '8080', 10);
+const PORT = parseInt(process.env.PORT || '10000', 10);
 
 async function createApp() {
   const app = express();
 
-  // ─── Trust proxy (DigitalOcean App Platform) ───
+  // ─── Trust proxy (Render / reverse proxy) ───
   app.set('trust proxy', 1);
 
   // ─── WWW → apex 301 redirect (Section 17) ───

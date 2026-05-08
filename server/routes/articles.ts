@@ -1,5 +1,5 @@
 import express from 'express';
-import { query, getArticlesFromJson } from '../../src/lib/db.mjs';
+import { getArticlesFromJson } from '../../src/lib/db.mjs';
 
 export const articlesRouter = express.Router();
 
@@ -7,46 +7,43 @@ export const articlesRouter = express.Router();
 articlesRouter.get('/', async (req, res) => {
   try {
     const { category, limit = '30', offset = '0', search } = req.query as Record<string, string>;
-    let articles: any[];
-    let total = 0;
 
-    try {
-      const params: (string | number)[] = [];
-      let sql = `SELECT id, slug, title, meta_desc, category, tags, hero_url, image_alt, reading_time, published_at, word_count
-                 FROM articles WHERE status = 'published'`;
-      if (category) {
-        params.push(category);
-        sql += ` AND category = $${params.length}`;
-      }
-      if (search) {
-        params.push(`%${search}%`);
-        sql += ` AND (title ILIKE $${params.length} OR meta_desc ILIKE $${params.length})`;
-      }
-      sql += ` ORDER BY published_at DESC LIMIT $${params.length + 1} OFFSET $${params.length + 2}`;
-      params.push(parseInt(limit), parseInt(offset));
-      const { rows } = await query(sql, params);
-      articles = rows;
+    const all = await getArticlesFromJson() as any[];
+    let filtered = all.filter((a: any) => a.status === 'published');
 
-      // Get total count
-      let countSql = `SELECT COUNT(*) FROM articles WHERE status = 'published'`;
-      const countParams: (string | number)[] = [];
-      if (category) { countParams.push(category); countSql += ` AND category = $${countParams.length}`; }
-      const { rows: countRows } = await query(countSql, countParams);
-      total = parseInt(countRows[0].count);
-    } catch {
-      // JSON fallback
-      const all = await getArticlesFromJson();
-      let filtered = all.filter((a: any) => a.status === 'published');
-      if (category) filtered = filtered.filter((a: any) => a.category === category);
-      if (search) {
-        const q = search.toLowerCase();
-        filtered = filtered.filter((a: any) =>
-          a.title?.toLowerCase().includes(q) || a.meta_desc?.toLowerCase().includes(q)
-        );
-      }
-      total = filtered.length;
-      articles = filtered.slice(parseInt(offset), parseInt(offset) + parseInt(limit));
+    if (category) filtered = filtered.filter((a: any) => a.category === category);
+    if (search) {
+      const q = search.toLowerCase();
+      filtered = filtered.filter((a: any) =>
+        a.title?.toLowerCase().includes(q) ||
+        a.excerpt?.toLowerCase().includes(q) ||
+        a.meta_desc?.toLowerCase().includes(q)
+      );
     }
+
+    // Sort by publish_date descending
+    filtered.sort((a: any, b: any) => {
+      const da = new Date(a.publish_date || a.published_at || 0).getTime();
+      const db = new Date(b.publish_date || b.published_at || 0).getTime();
+      return db - da;
+    });
+
+    const total = filtered.length;
+    const lim = parseInt(limit);
+    const off = parseInt(offset);
+    const articles = filtered.slice(off, off + lim).map((a: any) => ({
+      id: a.id,
+      slug: a.slug,
+      title: a.title,
+      excerpt: a.excerpt || a.meta_desc || '',
+      category: a.category,
+      tags: a.tags || [],
+      hero_url: a.hero_bunny_url || a.hero_url || '',
+      reading_time: a.reading_time || 7,
+      word_count: a.word_count || 0,
+      publish_date: a.publish_date || a.published_at || '',
+      author: a.author || 'The Oracle Lover',
+    }));
 
     res.set('Cache-Control', 'public, max-age=300');
     res.json({ articles, total });
@@ -59,38 +56,29 @@ articlesRouter.get('/', async (req, res) => {
 articlesRouter.get('/:slug', async (req, res) => {
   try {
     const { slug } = req.params;
-    let article: any;
-    let related: any[] = [];
+    const all = await getArticlesFromJson() as any[];
 
-    try {
-      const { rows } = await query(
-        `SELECT * FROM articles WHERE slug = $1 AND status = 'published'`,
-        [slug]
-      );
-      article = rows[0];
-
-      if (article) {
-        const { rows: relRows } = await query(
-          `SELECT id, slug, title, meta_desc, category, hero_url, image_alt, reading_time, published_at
-           FROM articles WHERE status = 'published' AND category = $1 AND slug != $2
-           ORDER BY published_at DESC LIMIT 3`,
-          [article.category, slug]
-        );
-        related = relRows;
-      }
-    } catch {
-      const all = await getArticlesFromJson();
-      article = all.find((a: any) => a.slug === slug && a.status === 'published');
-      if (article) {
-        related = all
-          .filter((a: any) => a.status === 'published' && a.category === article.category && a.slug !== slug)
-          .slice(0, 3);
-      }
-    }
+    const article = all.find((a: any) => a.slug === slug && a.status === 'published');
 
     if (!article) {
       return res.status(404).json({ error: 'Article not found' });
     }
+
+    // Normalize hero_url to prefer Bunny CDN
+    article.hero_url = article.hero_bunny_url || article.hero_url || '';
+
+    const related = all
+      .filter((a: any) => a.status === 'published' && a.category === article.category && a.slug !== slug)
+      .slice(0, 3)
+      .map((a: any) => ({
+        slug: a.slug,
+        title: a.title,
+        excerpt: a.excerpt || a.meta_desc || '',
+        category: a.category,
+        hero_url: a.hero_bunny_url || a.hero_url || '',
+        reading_time: a.reading_time || 7,
+        publish_date: a.publish_date || a.published_at || '',
+      }));
 
     res.set('Cache-Control', 'public, max-age=3600');
     res.json({ article, related });
